@@ -388,14 +388,14 @@
 	desc = "Sucked out into space by the FLAVOR!"
 	icon_state = "poster42"
 
-/obj/structure/sign/poster/contraband/kudzu
-	name = "Kudzu"
-	desc = "A poster advertising a movie about plants. How dangerous could they possibly be?"
+/obj/structure/sign/poster/contraband/Gymposter_1
+	name = "Gym poster"
+	desc = "First part of big poster"
 	icon_state = "poster43"
 
-/obj/structure/sign/poster/contraband/masked_men
-	name = "Masked Men"
-	desc = "A poster advertising a movie about some masked men."
+/obj/structure/sign/poster/contraband/Gymposter_2
+	name = "Gym poster ¹2"
+	desc = "Second part of big poster"
 	icon_state = "poster44"
 
 /obj/structure/sign/poster/official
