@@ -552,6 +552,12 @@
 	results = list("oil" = 3)
 	required_reagents = list("welding_fuel" = 1, "carbon" = 1, "hydrogen" = 1)
 
+/datum/chemical_reaction/oil2
+	name = "Oil"
+	id = "oil2"
+	results = list("oil" = 4)
+	required_reagents = list("cornoil" = 4, "hydrogen" = 1)
+
 /datum/chemical_reaction/phenol
 	name = "phenol"
 	id = "phenol"
