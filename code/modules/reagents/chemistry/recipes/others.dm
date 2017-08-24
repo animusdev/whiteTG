@@ -69,6 +69,16 @@
 	for(var/i = 1, i <= created_volume, i++)
 		new /obj/item/stack/sheet/mineral/gold(location)
 
+/datum/chemical_reaction/ironsolidification
+	name = "Solid Iron"
+	id = "solidiron"
+	required_reagents = list("frostoil" = 5, "iron" = 20)
+	mob_react = 1
+
+/datum/chemical_reaction/ironsolidification/on_reaction(datum/reagents/holder, created_volume)
+	var/location = get_turf(holder.my_atom)
+	for(var/i = 1, i <= created_volume, i++)
+
 /datum/chemical_reaction/capsaicincondensation
 	name = "Capsaicincondensation"
 	id = "capsaicincondensation"
