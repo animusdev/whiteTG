@@ -78,6 +78,7 @@
 /datum/chemical_reaction/ironsolidification/on_reaction(datum/reagents/holder, created_volume)
 	var/location = get_turf(holder.my_atom)
 	for(var/i = 1, i <= created_volume, i++)
+		new /obj/item/stack/sheet/metal(location)
 
 /datum/chemical_reaction/capsaicincondensation
 	name = "Capsaicincondensation"
