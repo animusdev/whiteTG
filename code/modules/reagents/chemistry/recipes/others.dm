@@ -674,3 +674,11 @@
 		new /mob/living/carbon/monkey(location)
 	else
 		new /mob/living/carbon/monkey/angry(location) //kek lol
+
+/datum/chemical_reaction/animatin
+	name = "animatin"
+	id = "animatin"
+	results = list("animatin" = 1)
+	required_reagents = list("strange_reagent" = 1, "mercury" = 1, "mutagen" = 1)
+
+

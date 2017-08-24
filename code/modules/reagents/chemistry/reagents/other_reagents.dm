@@ -1630,3 +1630,12 @@
 	description = "blue sparkles that get everywhere"
 	color = "#4040FF" //A blueish color
 	glitter_type = /obj/effect/decal/cleanable/glitter/blue
+
+/datum/reagent/animatin
+	name = "animatin"
+	id = "animatin"
+	description = "animate objects and come to life, doesn't affect machines"
+	color = "#880088"
+
+/datum/reagent/animatin/reaction_obj(obj/O, reac_volume)
+	O.animate_atom_living()
