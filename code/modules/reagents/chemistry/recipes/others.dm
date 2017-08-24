@@ -662,3 +662,15 @@
 	id = "bluespace"
 	results = list("bluespace" = 1)
 	required_reagents = list("strange_reagent" = 1, "stable_plasma" = 1, "teslium" = 1)
+
+/datum/chemical_reaction/monkey
+	name = "monkey"
+	id = "spawn_monkey"
+	required_reagents = list("strange_reagent" = 5, "banana" = 5, "uranium" = 5)
+
+/datum/chemical_reaction/monkey/on_reaction(datum/reagents/holder, created_volume)
+	var/location = get_turf(holder.my_atom)
+	if(prob(90))
+		new /mob/living/carbon/monkey(location)
+	else
+		new /mob/living/carbon/monkey/angry(location) //kek lol
