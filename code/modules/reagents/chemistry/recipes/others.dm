@@ -656,3 +656,9 @@
 	var/location = get_turf(holder.my_atom)
 	for(var/i in 1 to 10)
 		new /obj/item/stack/sheet/plastic(location)
+
+/datum/chemical_reaction/bluespace_dust
+	name = "bluespace dust"
+	id = "bluespace"
+	results = list("bluespace" = 1)
+	required_reagents = list("strange_reagent" = 1, "stable_plasma" = 1, "teslium" = 1)
