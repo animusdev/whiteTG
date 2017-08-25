@@ -1639,3 +1639,13 @@
 
 /datum/reagent/animatin/reaction_obj(obj/O, reac_volume)
 	O.animate_atom_living()
+
+/datum/reagent/vacuum
+	name = "liquid vacuum"
+	id = "vacuum"
+	description = "sucks in all the gases"
+	color = "#000000"
+
+/datum/reagent/vacuum/reaction_turf(turf/T, reac_volume)
+	var/multiplier = 10
+	T.remove_air(reac_volume*multiplier)

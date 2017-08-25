@@ -724,4 +724,10 @@
 	results = list("animatin" = 1)
 	required_reagents = list("strange_reagent" = 1, "mercury" = 1, "mutagen" = 1)
 
+/datum/chemical_reaction/vacuum
+	name = "liquid vacuum"
+	id = "vacuum"
+	results = list("vacuum" = 1)
+	required_reagents = list("strange_reagent" = 1, "nothing" = 1)
+
 
