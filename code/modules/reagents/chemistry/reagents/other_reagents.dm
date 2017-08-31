@@ -1634,7 +1634,7 @@
 /datum/reagent/animatin
 	name = "animatin"
 	id = "animatin"
-	description = "animate objects and come to life, doesn't affect machines"
+	description = "animates objects and brings them to life, doesn't affect machines"
 	color = "#880088"
 
 /datum/reagent/animatin/reaction_obj(obj/O, reac_volume)
