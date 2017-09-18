@@ -1,5 +1,5 @@
 /obj/item/weapon/disk/music
-	icon = 'icons/obj/module.dmi'
+	icon = 'icons/obj/cloning.dmi'
 	icon_state = "datadisk2"
 	item_state = "card-id"
 	w_class = 1.0
