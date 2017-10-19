@@ -82,3 +82,153 @@
  	id = "redroom"
  	suffix = "redroom.dmm"
  	name = "Red Room"
+
+/obj/item/reagent_containers/food/snacks/carpmeat/dry/donbas
+	name = "Debaltsevo fish"
+	desc = "Dryed fish with tomatoes. S vodoi v samiy raz."
+	icon = 'code/white/pieceofcrap.dmi'
+	icon_state = "roasted"
+	list_reagents = list("nutriment" = 5, "carpotoxin" = 3)
+	bitesize = 2
+	filling_color = "#000000"
+	tastes = list("fish" = 1, "tomato" = 1)
+	foodtype = MEAT
+
+/obj/item/reagent_containers/food/snacks/carpmeat/dry
+	name = "Dryed fish"
+	desc = "Just dryed fish. S pivkom v samiy raz."
+	icon = 'code/white/pieceofcrap.dmi'
+	icon_state = "dry"
+	list_reagents = list("nutriment" = 1, "carpotoxin" = 1)
+	bitesize = 2
+	filling_color = "#FA8072"
+	tastes = list("fish" = 1)
+	foodtype = MEAT
+
+/datum/crafting_recipe/dryfish
+	name = "Dryed Fish"
+	result =  /obj/item/reagent_containers/food/snacks/carpmeat/dry
+	time = 80
+	reqs = list(/obj/item/reagent_containers/food/snacks/carpmeat = 3,
+				/datum/reagent/fuel = 5)
+	category = CAT_MISC
+
+/datum/crafting_recipe/dryfish/donbass
+	name = "Debaltsevo Fish"
+	result =  /obj/item/reagent_containers/food/snacks/carpmeat/dry/donbas
+	time = 40
+	reqs = list(/obj/item/reagent_containers/food/snacks/carpmeat/dry = 1,
+				/datum/reagent/consumable/tomatojuice = 10,
+				/obj/item/reagent_containers/food/snacks/grown/tomato = 1)
+	category = CAT_MISC
+
+//obj/item/clothing/head/helmet/debaltsevo
+//	name = "Debaltsevo helmet!"
+//	desc = "Helmet stolen from space debalcevo. Perfectly to create besiegement."
+//	icon = 'code/white/pieceofcrap.dmi'
+//	icon_state = "kotel"
+//	item_state = "kotel_o"
+//	armor = list(melee = 5, bullet = 10, laser = 10, energy = 0, bomb = 0, bio = 0, rad = 0, fire = 0, acid = 50)
+//	can_flashlight = 0
+
+/obj/item/reagent_containers/food/snacks/meat/slab/dach
+	name = "dach meat"
+	desc = "Tastes like... well you know..."
+	foodtype = RAW | MEAT | GROSS
+
+/mob/living/simple_animal/pet/dog/dhund
+	name = "\improper Dachshund"
+	real_name = "Dachshund"
+	desc = "It's a dachshund."
+	icon = 'code/white/pieceofcrap.dmi'
+	icon_state = "dachshund"
+	icon_living = "dachshund"
+	icon_dead = "dachshund_dead"
+	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/dach = 3)
+	gold_core_spawnable = 2
+
+/datum/supply_pack/organic/critter/dhund
+	name = "Dachshund Crate"
+	cost = 1000
+	contains = list(/mob/living/simple_animal/pet/dog/dhund)
+	crate_name = "dachshund crate"
+
+/obj/item/clothing/suit/holidaypriest/whiterobe
+	name = "Holy robe'o'priest"
+	desc = "This is a nice holiday, my son."
+	icon = 'code/white/pieceofcrap.dmi' //sprites by Arcblader
+	icon_state = "w_robe"
+	item_state = "w_robe"
+
+/mob/living/simple_animal/pet/dog/dhund
+	name = "\improper Dachshund"
+	real_name = "Dachshund"
+	desc = "It's a dachshund."
+	icon = 'code/white/pieceofcrap.dmi'
+	icon_state = "dachshund"
+	icon_living = "dachshund"
+	icon_dead = "dachshund_dead"
+	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/dach = 3)
+	gold_core_spawnable = 2
+
+/mob/living/simple_animal/pet/dog/shepherd
+	name = "\improper Shepherd"
+	real_name = "Shepherd"
+	desc = "It's a Shepherd."
+	icon = 'code/white/pieceofcrap.dmi'
+	icon_state = "shepherd"
+	icon_living = "shepherd"
+	icon_dead = "shepherd_dead"
+	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/shepherd = 3)
+	gold_core_spawnable = 2
+
+/mob/living/simple_animal/pet/dog/jack
+	name = "\improper Jack"
+	real_name = "Jack russell terrier"
+	desc = "It's a jack russell terrier."
+	icon = 'code/white/pieceofcrap.dmi'
+	icon_state = "jack"
+	icon_living = "jack"
+	icon_dead = "jack_dead"
+	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/jack = 3)
+	gold_core_spawnable = 2
+
+/mob/living/simple_animal/pet/dog/pug/chi
+	name = "\improper Ñhi"
+	real_name = "Chihuahua"
+	desc = "It's a chihuahua."
+	icon = 'code/white/pieceofcrap.dmi'
+	icon_state = "chi"
+	icon_living = "chi"
+	icon_dead = "chi_dead"
+	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/chi = 1)
+	gold_core_spawnable = 2
+
+/obj/item/reagent_containers/food/snacks/meat/slab/jack
+	name = "jack meat"
+	desc = "Tastes like... well you know..."
+	foodtype = RAW | MEAT | GROSS
+
+/obj/item/reagent_containers/food/snacks/meat/slab/chi
+	name = "chihuahua meat"
+	desc = "Tastes like... well you know..."
+	foodtype = RAW | MEAT | GROSS
+
+/obj/item/reagent_containers/food/snacks/meat/slab/shepherd
+	name = "shepherd meat"
+	desc = "Tastes like... well you know..."
+	foodtype = RAW | MEAT | GROSS
+
+/datum/supply_pack/organic/critter/shepherd
+	name = "German Shepherd"
+	cost = 1000
+	contains = list(/mob/living/simple_animal/pet/dog/shepherd)
+	crate_name = "shepherd crate"
+
+/datum/supply_pack/organic/critter/doggies
+	name = "Doggies crate"
+	cost = 1000
+	contains = list(/mob/living/simple_animal/pet/dog/jack, /mob/living/simple_animal/pet/dog/pug/chi)
+	crate_name = "doggies crate"
+
+//doggo sprites by Arkblader
