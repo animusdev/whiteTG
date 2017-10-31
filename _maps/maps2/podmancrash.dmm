@@ -1,0 +1,240 @@
+"aa" = (/turf/template_noop,/area/template_noop)
+"ab" = (/turf/closed/mineral/random/low_chance,/area/ruin/unpowered)
+"ac" = (/turf/open/floor/plating/asteroid/airless,/area/ruin/unpowered)
+"ad" = (/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"ae" = (/obj/structure/alien/weeds,/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"af" = (/obj/structure/alien/weeds,/obj/effect/spawner/lootdrop/two_percent_xeno_egg_spawner,/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"ag" = (/obj/structure/alien/weeds,/obj/structure/alien/weeds/node,/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"ah" = (/obj/structure/alien/weeds/node,/obj/effect/spawner/lootdrop/two_percent_xeno_egg_spawner,/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"ai" = (/obj/item/pickaxe,/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"aj" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"ak" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"al" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"am" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"an" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"ao" = (/obj/machinery/shieldwallgen/xenobiologyaccess,/obj/structure/cable,/turf/open/floor/plating,/area/ruin/unpowered)
+"ap" = (/obj/item/device/flashlight/lantern,/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"aq" = (/turf/closed/wall/r_wall,/area/mine/hydroponics)
+"ar" = (/obj/machinery/shieldwallgen/xenobiologyaccess,/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/open/floor/plating,/area/ruin/unpowered)
+"as" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"at" = (/obj/structure/table/wood,/obj/item/lighter,/obj/item/lighter,/obj/item/storage/fancy/rollingpapers,/obj/item/storage/fancy/rollingpapers,/obj/item/storage/fancy/rollingpapers,/obj/item/storage/fancy/rollingpapers,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"au" = (/obj/structure/closet/crate,/obj/effect/spawner/lootdrop/seed_vault,/obj/machinery/light{dir = 1},/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"av" = (/obj/structure/closet/crate,/obj/effect/spawner/lootdrop/seed_vault,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aw" = (/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"ax" = (/obj/item/scythe,/obj/structure/closet/crate,/obj/item/grenade/chem_grenade/antiweed,/obj/item/grenade/chem_grenade/antiweed,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"ay" = (/obj/machinery/light{dir = 1},/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"az" = (/obj/structure/closet/crate/hydroponics,/obj/structure/beebox,/obj/item/melee/flyswatter,/obj/item/honey_frame,/obj/item/honey_frame,/obj/item/honey_frame,/obj/item/queen_bee/bought,/obj/item/clothing/head/beekeeper_head,/obj/item/clothing/suit/beekeeper_suit,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aA" = (/obj/structure/shuttle/engine/propulsion{dir = 8},/turf/open/floor/plating/asteroid/airless,/area/ruin/unpowered)
+"aB" = (/obj/item/organ/alien/plasmavessel/large/queen,/obj/item/organ/body_egg/alien_embryo,/obj/effect/decal/cleanable/blood/gibs/body,/obj/effect/decal/cleanable/blood/gibs/torso,/obj/item/organ/alien/resinspinner,/obj/effect/decal/cleanable/xenoblood/xgibs/body,/obj/effect/decal/cleanable/xenoblood/xgibs/core,/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"aC" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"aD" = (/obj/machinery/power/floodlight,/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"aE" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"aF" = (/obj/machinery/door/airlock,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aG" = (/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/machinery/power/apc{dir = 2; name = "Hydroponics APC"; areastring = "/area/hydroponics"; pixel_y = -24},/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aH" = (/obj/machinery/shieldwallgen/xenobiologyaccess,/obj/structure/cable{icon_state = "0-2"; pixel_y = 1; d2 = 2},/turf/open/floor/plating,/area/ruin/unpowered)
+"aI" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"aJ" = (/obj/machinery/door/airlock,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aK" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/item/wrench,/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"aL" = (/obj/machinery/smartfridge,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aM" = (/obj/structure/closet/crate/hydroponics,/obj/item/cultivator,/obj/item/cultivator,/obj/item/cultivator,/obj/item/cultivator,/obj/item/shovel/spade,/obj/item/shovel/spade,/obj/item/shovel/spade,/obj/item/shovel/spade,/obj/item/hatchet,/obj/item/hatchet,/obj/item/hatchet,/obj/item/hatchet,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aN" = (/obj/machinery/hydroponics/constructable,/obj/machinery/light{dir = 1},/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aO" = (/obj/item/storage/toolbox/syndicate,/obj/structure/table/wood,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aP" = (/obj/structure/table/wood,/obj/item/storage/box/disks_plantgene,/obj/machinery/light{dir = 1},/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aQ" = (/obj/structure/table/wood,/obj/item/storage/box/disks_plantgene,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aR" = (/obj/machinery/plantgenes/seedvault,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aS" = (/obj/machinery/chem_master/condimaster,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aT" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"aU" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"aV" = (/obj/machinery/power/floodlight,/obj/structure/cable,/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"aW" = (/obj/machinery/light{dir = 8},/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aX" = (/obj/machinery/light{dir = 4},/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"aY" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"aZ" = (/obj/item/clothing/under/rank/hydroponics,/obj/structure/table/wood,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"ba" = (/obj/machinery/light{dir = 1},/obj/structure/table/wood,/obj/item/gun/energy/floragun,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bb" = (/obj/structure/sink{dir = 8; pixel_x = -12; pixel_y = 2},/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bc" = (/obj/machinery/vending/hydronutrients,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bd" = (/obj/machinery/vending/hydroseeds,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"be" = (/obj/machinery/reagentgrinder{pixel_y = 5},/obj/structure/table/glass,/obj/item/reagent_containers/glass/beaker/bluespace,/obj/item/reagent_containers/glass/beaker/bluespace,/obj/item/reagent_containers/glass/beaker/bluespace,/obj/item/reagent_containers/glass/beaker/bluespace,/obj/item/reagent_containers/syringe,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bf" = (/obj/structure/sink{dir = 4; pixel_x = 11},/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bg" = (/obj/machinery/door/airlock/external,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bh" = (/obj/machinery/door/airlock/external,/obj/structure/fans/tiny,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bi" = (/turf/closed/wall/r_wall/rust,/area/science/xenobiology{has_gravity = 1})
+"bj" = (/obj/machinery/camera{c_tag = "Port Hallway"; dir = 1},/turf/open/floor/plating/asteroid,/area/ruin/unpowered)
+"bk" = (/obj/effect/mob_spawn/human/seed_vault,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bl" = (/obj/machinery/power/emitter,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bm" = (/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bn" = (/obj/machinery/field/generator,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bo" = (/obj/machinery/door/airlock/glass_science,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bp" = (/obj/machinery/light,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bq" = (/obj/structure/disposalpipe/trunk,/obj/machinery/disposal/bin,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"br" = (/obj/machinery/seed_extractor,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bs" = (/obj/machinery/biogenerator,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bt" = (/obj/machinery/chem_dispenser/mutagensaltpeter,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bu" = (/obj/machinery/camera{c_tag = "Security Escape Pod"; dir = 4; network = list("SS13")},/obj/machinery/light{dir = 8},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bv" = (/obj/machinery/camera{c_tag = "Testing Lab South"; dir = 8; network = list("SS13","RD"); pixel_y = -22},/obj/machinery/light{dir = 4},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bw" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light{dir = 4},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bx" = (/obj/structure/disposalpipe/segment,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"by" = (/obj/machinery/light{dir = 8},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bz" = (/obj/machinery/door/airlock/glass_science,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bA" = (/obj/machinery/hydroponics/constructable,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bB" = (/obj/machinery/light,/obj/machinery/hydroponics/constructable,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bC" = (/obj/structure/disposalpipe/segment,/obj/machinery/hydroponics/constructable,/turf/open/floor/plasteel/freezer,/area/mine/hydroponics)
+"bD" = (/obj/machinery/shieldwallgen/xenobiologyaccess,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bE" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bF" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bG" = (/obj/structure/disposalpipe/segment,/turf/closed/wall/r_wall,/area/mine/hydroponics)
+"bH" = (/obj/machinery/shieldwallgen/xenobiologyaccess,/obj/machinery/camera{c_tag = "Port Hallway"; dir = 1},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bI" = (/obj/structure/disposalpipe/segment{dir = 1; icon_state = "pipe-c"},/turf/open/floor/plating/asteroid/airless,/area/ruin/unpowered)
+"bJ" = (/obj/structure/disposalpipe/trunk{dir = 8},/turf/open/floor/plating/asteroid/airless,/area/ruin/unpowered)
+"bK" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/camera{c_tag = "Testing Lab South"; dir = 8; network = list("SS13","RD"); pixel_y = -22},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bL" = (/obj/structure/table,/obj/machinery/light{dir = 1},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bM" = (/obj/structure/table,/obj/item/storage/firstaid/o2,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bN" = (/obj/structure/table,/obj/item/storage/firstaid/toxin,/obj/item/storage/pill_bottle/mutadone,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bO" = (/obj/structure/table,/obj/item/defibrillator,/obj/item/stock_parts/cell/super,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bP" = (/turf/closed/wall/r_wall/rust,/area/mine/maintenance)
+"bQ" = (/obj/structure/table/optable,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bR" = (/obj/machinery/light{dir = 4},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bS" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{icon_state = "0-2"; pixel_y = 1; d2 = 2},/obj/machinery/power/apc{dir = 8; name = "Xenobiology APC"; areastring = "/area/science/xenobiology"; pixel_x = -25},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"bT" = (/obj/machinery/door/airlock/glass_maintenance,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/plating,/area/science/xenobiology{has_gravity = 1})
+"bU" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/plating,/area/mine/maintenance)
+"bV" = (/obj/machinery/door/airlock/glass_maintenance,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/plating,/area/mine/maintenance)
+"bW" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/open/floor/plating,/area/mine/maintenance)
+"bX" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/open/floor/plating,/area/mine/maintenance)
+"bY" = (/obj/machinery/recycler,/turf/open/floor/plating,/area/mine/maintenance)
+"bZ" = (/obj/machinery/computer/operating,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"ca" = (/obj/machinery/light{dir = 4},/obj/machinery/camera{c_tag = "Testing Lab South"; dir = 8; network = list("SS13","RD"); pixel_y = -22},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cb" = (/obj/machinery/camera{c_tag = "Security Escape Pod"; dir = 4; network = list("SS13")},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cc" = (/obj/structure/cable{icon_state = "0-2"; pixel_y = 1; d2 = 2},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cd" = (/obj/machinery/camera{c_tag = "Testing Lab South"; dir = 8; network = list("SS13","RD"); pixel_y = -22},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"ce" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light{dir = 4},/obj/machinery/camera{c_tag = "Testing Lab South"; dir = 8; network = list("SS13","RD"); pixel_y = -22},/obj/machinery/airalarm{dir = 4; pixel_x = -23},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cf" = (/obj/machinery/light{dir = 8},/obj/machinery/power/apc{areastring = "/area/maintenance/port"; dir = 8; name = "Maintenance APC"; pixel_x = -27; pixel_y = 2},/obj/structure/cable,/turf/open/floor/plating,/area/mine/maintenance)
+"cg" = (/turf/open/floor/plating,/area/mine/maintenance)
+"ch" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/plating,/area/mine/maintenance)
+"ci" = (/obj/machinery/light{dir = 4},/obj/structure/plasticflaps,/turf/open/floor/plating,/area/mine/maintenance)
+"cj" = (/obj/structure/table,/obj/item/clothing/gloves/color/latex,/obj/item/clothing/mask/surgical,/obj/effect/decal/cleanable/dirt{desc = "A thin layer of dust coating the floor."; name = "dust"},/obj/item/clothing/suit/apron/surgical,/obj/item/storage/backpack/duffelbag/med/surgery,/obj/machinery/light{dir = 8},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"ck" = (/obj/effect/spawner/lootdrop/organ_spawner,/obj/structure/closet/crate/freezer,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cl" = (/obj/machinery/door/airlock/glass_medical,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cm" = (/obj/machinery/light{dir = 1},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cn" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"co" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/light{dir = 1},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cp" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cq" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cr" = (/obj/structure/table,/obj/machinery/cell_charger,/obj/item/stock_parts/cell/super,/turf/open/floor/plating,/area/mine/maintenance)
+"cs" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/open/floor/plating,/area/mine/maintenance)
+"ct" = (/obj/machinery/power/port_gen/pacman/super,/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/item/stack/sheet/mineral/uranium{amount = 10},/obj/item/stack/sheet/mineral/uranium{amount = 10},/turf/open/floor/plating,/area/mine/maintenance)
+"cu" = (/obj/item/weldingtool/experimental,/turf/closed/mineral/random/low_chance,/area/ruin/unpowered)
+"cv" = (/obj/structure/table,/obj/item/device/gps/engineering{tracking = 0},/turf/open/floor/plating,/area/mine/maintenance)
+"cw" = (/obj/machinery/power/terminal{dir = 4},/obj/structure/cable,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/plating,/area/mine/maintenance)
+"cx" = (/obj/structure/cable{icon_state = "0-4"; d2 = 4},/obj/machinery/power/smes{charge = 5e+006; input_level = 200000; output_level = 100000},/turf/open/floor/plating,/area/mine/maintenance)
+"cy" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/open/floor/plating,/area/mine/maintenance)
+"cz" = (/obj/machinery/modular_computer/console/preset/command{_has_battery = 1},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/open/floor/plating,/area/mine/maintenance)
+"cA" = (/mob/living/simple_animal/slime,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cB" = (/obj/machinery/autolathe,/turf/closed/mineral/random/low_chance,/area/ruin/unpowered)
+"cC" = (/obj/machinery/power/terminal{dir = 4},/obj/structure/cable,/turf/open/floor/plating,/area/mine/maintenance)
+"cD" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/open/floor/plating,/area/mine/maintenance)
+"cE" = (/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 2; external_pressure_bound = 140; pressure_checks = 0; name = "killroom vent"},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cF" = (/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{dir = 2; external_pressure_bound = 120; name = "killroom vent"},/obj/machinery/camera{c_tag = "Testing Lab South"; dir = 8; network = list("SS13","RD"); pixel_y = -22},/obj/machinery/light{dir = 4},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cG" = (/obj/machinery/light{dir = 8},/turf/open/floor/plating,/area/mine/maintenance)
+"cH" = (/obj/structure/closet/crate{name = "solar pack crate"},/turf/open/floor/plating,/area/mine/maintenance)
+"cI" = (/obj/effect/spawner/structure/window/reinforced,/obj/machinery/atmospherics/pipe/simple/general/visible{dir = 5},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cJ" = (/obj/effect/spawner/structure/window/reinforced,/obj/machinery/atmospherics/pipe/manifold/general/visible{dir = 4},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cK" = (/obj/machinery/autolathe,/turf/open/floor/plating,/area/mine/maintenance)
+"cL" = (/obj/structure/table,/obj/item/stack/sheet/metal/fifty,/obj/item/stack/sheet/glass/fifty,/turf/open/floor/plating,/area/mine/maintenance)
+"cM" = (/obj/item/shovel,/obj/structure/table,/obj/item/storage/bag/ore,/obj/item/storage/bag/trash,/turf/open/floor/plating,/area/mine/maintenance)
+"cN" = (/obj/item/weldingtool/experimental,/obj/structure/table,/obj/item/storage/toolbox/syndicate,/obj/item/clothing/head/welding,/turf/open/floor/plating,/area/mine/maintenance)
+"cO" = (/obj/structure/table,/obj/item/twohanded/rcl/pre_loaded,/obj/item/storage/toolbox/artistic,/turf/open/floor/plating,/area/mine/maintenance)
+"cP" = (/obj/machinery/atmospherics/components/unary/thermomachine/freezer{dir = 1; on = 1; target_temperature = 80},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cQ" = (/obj/structure/chair/comfy,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cR" = (/obj/machinery/chem_dispenser,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cS" = (/obj/machinery/chem_master,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cT" = (/obj/machinery/chem_heater,/obj/machinery/light,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cU" = (/obj/machinery/computer/camera_advanced/xenobio,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cV" = (/obj/structure/table/reinforced,/obj/item/storage/box/monkeycubes,/obj/item/storage/box/syringes,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cW" = (/obj/structure/table/reinforced,/obj/machinery/reagentgrinder,/obj/item/stack/sheet/mineral/plasma{amount = 10},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cX" = (/obj/machinery/smartfridge/extract/preloaded,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cY" = (/obj/machinery/processor{desc = "A machine used to process slimes and retrieve their extract."; name = "Slime Processor"},/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"cZ" = (/obj/machinery/monkey_recycler,/obj/machinery/light,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+"da" = (/obj/structure/closet/l3closet/scientist,/obj/item/card/id{access = list(55); access_txt = "55"; name = "Xenobiology access card"; req_access_txt = "0"},/obj/item/clothing/shoes/laceup,/turf/open/floor/plasteel/freezer,/area/science/xenobiology{has_gravity = 1})
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababaaaaaaaaaaaaaaaaaaaaababababababababababaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababaaaaaaaaaaaaababababababababababababababaaaaaaaaaaaaababababababababababababababababaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacabababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacabababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacabababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacabababababababababababababababababababababababababababababababababababadadadadadabababababababababababababaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacababababababababababababababababababababababababababababababababadadadadadadadadababababababababababaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacacacacacababababababababababababababababababababababababababadadadaeaeaeaeadadadadabababababababababaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacacacacacacababababababababababababababababababababababababababadadadaeaeaeaeaeaeadadadabababababababababaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaacacacacacacabababababababababababababababababababababababababababababadadadaeafaeaeaeaeaeadadadabababababababababaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababababababababababababababababababababababadadaeaeaeaeagaeaeaeadadadababababababababababaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababababababababababababababababababababadadaeaeaeaeaeafaeaeadadadabababababababababababaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababadadadadadadadababababababababadadaeaeaeafaeaeaeadadadabababababababababababababaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababadadadaeaeaeadadadabababababababadadadaeaeaeaeaeadadadabababababababababababababababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababadadadaeaeaeaeaeadadadabababababababadadadaeaeaeadadadadabababababababababababababababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaababababababababababababababababababababadadaeaeaeaeaeaeaeadadadababababababababadadadadadadababababababababababababababababababaaaa
+aaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababadadaeaeaeahaeaeaeadadadadabababababababababababababababababababababababababababababababaaaa
+aaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababadadaeaeaeaeaeaeaeadadadadababababababababababababababababababababababababababababababababaa
+aaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababadadadaeaeaeaeaeadadadadadababababababababababababababababababababababababababababababababab
+aaaaaaaaaaaaaaaaaaabababababababababababababababababababababababadadadaeaeaeadadadadadabababababababababababababababababababababababababababababababababab
+aaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababadadaiadadadababababababababababababababababababababababababababababababababababababab
+aaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababababadadababababababababababababababababababababababababababababababababababababababab
+aaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababababadadababababababababababababababababababababababababababababababababababababababaa
+aaaaaaaaaaaaaaaaababababababababababababababababababadadadadadadababababadadababababababababababababababababababababababababababababababababababababababaa
+aaaaaaaaaaaaaaaaabababababababababababababababababadajakalakalamadabababadadabababababababababababababababababababababababababababababababababababababaaaa
+aaaaaaaaaaaaaaaaababababababababababababababababadadanaoadaoadanadadadabadapabababadadadababaqaqaqaqaqaqaqaqaqaqacacacacacacacacacacacacacacacacacacaaaaaa
+aaaaaaaaaaaaaaaaababababababababababababababababadadaoadadadarasadadadadadadadadadadadadadaqaqatauavawaxawayazaqaqaAacacacacacacacacacacacacacacaaaaaaaaaa
+aaaaaaaaaaaaaaaaababababababababababababababababadadadadaBadadaCaDadadadajalalalaEalalalalaFaGawawawawawawawawazaqaqacacacacacacacacacacacacacaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaababababababababababababababababadadaHadadadaraIadadadadanadadadanadadadadaqaqaqaqaJaqaqaqaqaqaqaqaAacacacacacacacacacacacaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaababababababababababababababababadadanaHadaHadaKadadadadanadadadanadadadaqaqaLaMaNawawaOaPaQaRaSaqaqacacacacacacacacacacaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaabababababababababababababababababadaTaUalaUalaUalalalalaIadadadaVadaqaqaqaqaWawawawawawawawawaXaqaAacacacacacacacacacaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaababababababababababababababababababadadadadadadadadadadaYadadadadadaqaZbaaqbbawawbcaLbdbeawawbfaqaqaqacacacacacacacacaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaacacacacabababababababababababababababababababababadadadanadadadababaqawawaJawawawawawawawawawawbgawbhacacacacacacacaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaacacacacacacacababababbibibibibibibiabababababababadadbjanadadabababaqbkawaJawawawawawawawawawawbgawbhacacacacacacaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaababababacacacacacababababbiblblbmbnbnbibibibibibibibibibibibobiababababaqbkbpaqbbawawbqbrbsbtawawbfaqaqaqacacacacacaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaabababababababacacacacabababbiblblbmbnbnbibubmbmbmbmbmbmbmbvbibwbiababababaqaqaqaqaWawawbxawawawawawaXaqaAacacacacacacaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaabababababababababababababababbibybmbmbmbmbzbmbmbmbmbmbmbmbmbmbibobiababababababaqaqbAbAbBbCbAbAbAbBbAbAaqaqacacacacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaababababababababababababababababbibDbDbDbDbDbibmbmbmbmbmbmbmbmbmbEbFbiabababababababaqaqaqaqbGaqaqaqaqaqaqaqaAacacacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaababababababababababababababababbibDbDbHbDbDbibmbmbmbmbmbmbmbmbmbEbwbiabababababababababababbIbJacacacacacacacacacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaababababababababababababababababbibibibibibibibmbmbmbmbmbmbmbmbmbEbKbiababababababababababababacacacacacacacacacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaababababababababababababababababababbibLbMbNbObibmbmbmbmbmbmbmbmbmbEbFbibPbPbPbPbPbPbPbPabababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaababababababababababababababababababbibQbmbmbmbibybmbmbmbmbmbmbmbRbibSbTbUbVbWbUbUbXbYbPababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaababababababababababababababababababbibZbmbmcabicbbmbmbmbmbmbmcccdbicebibPbPcfcgcgchcibPabababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaababababababababababababababababababbicjbmbmbmbibEbEbEbEbEbEbibobibibFbiabbPcgcgcgchcgbPabababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaabababababababababababababababababababbickbmbmbmclbmbmbmbmbmbmcmcncocpcqbiabbPcrcsctchcgbPababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaabababababababababababababababababababbibibibibibibEbEbEbEbEbEbmbmbEbEbEbicubPcvcwcxcyczbPababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaababababababababababababababababababababababababbicAbmbEbmbmbEbmbmbEbmbmbicBbPcgcCcxcDcgbPababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababababababababababababababababababababbibubmbEbmbmbEbmbmbEcEcFbiabbPcGcgcgcgcHbPabababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababababababababababababababababababababbibEbEbEbEbEbEbmbmbEcIcJbiabbPcKcLcMcNcObPabababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababababababababababababababababababababbibmbmbmbmbmbmbmbmbmbmcPbiabbPbPbPbPbPbPbPabababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababababababababababababababababababababbibmbmbmbmcQbmbmbmbmbmbmbiabababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababababababababababababababababababababbicRcScTcUcVcWcXcYcZdadabiabababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaababababababababababababababababababababababababbibibibibibibibibibibibibiabababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaababababababaaaaaaaaaaaaababababababababababababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababacababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababacacabababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacacabababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacabababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

@@ -1,0 +1,275 @@
+"aa" = (/turf/open/space/basic,/area/space)
+"ab" = (/obj/structure/window/shuttle/survival_pod,/obj/machinery/door/poddoor/shutters{id = "pshipcockpit"; name = "Pirate ship shutters (cockpit)"},/obj/machinery/door/poddoor/shutters{id = "pshipcockpit"; name = "Pirate ship shutters (cockpit)"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ac" = (/obj/structure/window/shuttle/survival_pod,/obj/machinery/door/poddoor/shutters{id = "pshipcockpit"; name = "Pirate ship shutters (cockpit)"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ad" = (/obj/structure/table/wood/fancy/black,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ae" = (/obj/machinery/computer/shuttle/monastery_shuttle{last_move = null; name = "shuttle console"; possible_destinations = "pship_base;pship_dock"; shuttleId = "pship"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"af" = (/obj/structure/table/wood/fancy/black,/obj/machinery/button/door{id = "pshipcockpit"; name = "Cockpit"},/obj/machinery/button/door{id = "pshipeng"; name = "Engineering"; pixel_x = -10; step_x = 0},/obj/machinery/button/door{id = "pshipwings"; name = "Wings"; pixel_x = 10; step_x = 0},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ag" = (/obj/machinery/computer/camera_advanced/shuttle_docker/syndicate{jump_action = "pship_dock"; jumpto_ports = list("pship_dock" = 1, "whiteship_lavaland" = 1, "whiteship_z4" = 1, "whiteship_home" = 1); name = "ship navigation system"; shuttleId = "pship"; shuttlePortId = "pship_dock"; view_range = 20; x_offset = 0; y_offset = 0; z_lock = 0},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ah" = (/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ai" = (/obj/structure/chair/comfy{dir = 1},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aj" = (/obj/structure/table/wood/fancy/black,/obj/item/ammo_box/magazine/ak762,/obj/item/gun/ballistic/automatic/ak,/obj/item/suppressor,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ak" = (/obj/item/clothing/under/draculass,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"al" = (/obj/item/clothing/suit/dracula,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"am" = (/obj/item/clothing/under/space,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"an" = (/obj/item/clothing/gloves/combat/combatwhite,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ao" = (/obj/item/clothing/head/piratecapnhat,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ap" = (/obj/machinery/computer/crew/syndie,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aq" = (/obj/machinery/modular_computer/console/preset/command,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ar" = (/obj/machinery/shieldgen{anchored = 1; desc = "That is what happens when elite spess pirates steal your tech"; name = "Modified cockpit anti-breach shield projector"; shield_range = 5},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"as" = (/obj/item/clothing/under/piratecapn_uniform,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"at" = (/obj/item/clothing/suit/piratecapn,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"au" = (/obj/structure/chair/comfy{dir = 4},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"av" = (/obj/structure/table/wood/fancy/black,/obj/item/storage/fancy/donut_box,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aw" = (/turf/closed/wall/mineral/titanium/survival,/area/shuttle/pship)
+"ax" = (/obj/machinery/computer/camera_advanced{name = "Ship camera console"; networks = list("pship")},/obj/machinery/light/reinforced{tag = "icon-tube1 (WEST)"; icon_state = "tube1"; dir = 8},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ay" = (/obj/structure/chair/comfy{dir = 8},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"az" = (/obj/structure/mirror/magic,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aA" = (/obj/machinery/atmospherics/components/unary/vent_pump/on,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aB" = (/obj/machinery/light/reinforced{tag = "icon-tube1 (EAST)"; icon_state = "tube1"; dir = 4},/obj/machinery/modular_computer/console/preset/engineering,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aC" = (/obj/machinery/computer/camera_advanced,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aD" = (/mob/living/simple_animal/bot/cleanbot,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aE" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aF" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aG" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/survival_pod/vertical,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aH" = (/obj/machinery/camera{c_tag = "X Left wing"; dir = 1; name = "Left wing camera"; network = list("pship")},/turf/open/space/basic,/area/space)
+"aI" = (/obj/structure/table/wood/fancy/black,/obj/item/paper_bin,/obj/item/pen/sleepy,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aJ" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden,/obj/machinery/camera{c_tag = "X Cockpit"; dir = 1; name = "Cockpit"; network = list("pship")},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aK" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aL" = (/obj/machinery/camera{c_tag = "X Right wing"; dir = 1; name = "Right wing camera"; network = list("pship")},/turf/open/space/basic,/area/space)
+"aM" = (/obj/machinery/door/poddoor/shutters{id = "pshipwings"; name = "Pirate ship shutters (wings)"},/obj/structure/fans/tiny,/obj/structure/window/shuttle/survival_pod,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aN" = (/obj/structure/window/shuttle/survival_pod,/obj/machinery/door/poddoor/shutters{id = "pshipwings"; name = "Pirate ship shutters (wings)"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aO" = (/obj/machinery/door/airlock/survival_pod,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aP" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden,/turf/closed/wall/mineral/titanium/survival,/area/shuttle/pship)
+"aQ" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/closed/wall/mineral/titanium/survival,/area/shuttle/pship)
+"aR" = (/obj/structure/cable{icon_state = "0-2"; d2 = 2},/obj/machinery/power/emitter/anchored{anchored = 0; dir = 1; fire_delay = 25; name = "Pulse Canon"; projectile_sound = 'sound/weapons/pulse.ogg'; projectile_type = /obj/item/projectile/beam/pulse},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aS" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 6},/obj/structure/cable{icon_state = "0-2"; d2 = 2},/obj/machinery/power/emitter/anchored{anchored = 0; dir = 1; fire_delay = 25; name = "Pulse Canon"; projectile_sound = 'sound/weapons/pulse.ogg'; projectile_type = /obj/item/projectile/beam/pulse},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aT" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/closed/wall/mineral/titanium/survival,/area/shuttle/pship)
+"aU" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aV" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aW" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aX" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{dir = 1},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aY" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 10},/obj/structure/cable{icon_state = "0-2"; d2 = 2},/obj/machinery/power/emitter/anchored{anchored = 0; dir = 1; fire_delay = 25; name = "Pulse Canon"; projectile_sound = 'sound/weapons/pulse.ogg'; projectile_type = /obj/item/projectile/beam/pulse},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"aZ" = (/obj/machinery/shieldgen{anchored = 1; desc = "That is what happens when elite spess pirates steal your tech"; name = "Modified anti-breach shield projector"; shield_range = 8},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ba" = (/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 4},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bb" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bc" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bd" = (/obj/machinery/door/airlock/survival_pod/vertical,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"be" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bf" = (/obj/machinery/atmospherics/pipe/manifold/supply/hidden{dir = 1},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bg" = (/obj/machinery/atmospherics/pipe/manifold/supply/hidden{dir = 1},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bh" = (/obj/machinery/atmospherics/pipe/manifold/supply/hidden,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bi" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bj" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bk" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bl" = (/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 8},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bm" = (/obj/machinery/light/reinforced,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bn" = (/obj/machinery/camera{c_tag = "X Left wing inside"; dir = 1; name = "Left wing camera (inside)"; network = list("pship")},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bo" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on{dir = 1},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bp" = (/obj/structure/closet/radiation,/obj/item/clothing/glasses/meson,/obj/item/clothing/glasses/meson,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bq" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"br" = (/obj/docking_port/mobile{area_type = /area/shuttle/pship; assigned_transit = null; baseturf_type = null; dheight = 13; dir = 2; dwidth = 13; height = 25; id = "pship"; launch_status = 0; name = "pirate ship"; port_direction = 1; preferred_direction = 4; roundstart_move = "pship_base"; turf_type = null; width = 25},/obj/docking_port/stationary{area_type = /area/space; baseturf_type = /turf/open/space; dheight = 13; dir = 2; dwidth = 13; height = 25; id = "pship_base"; name = "pirate ship base"; turf_type = /turf/open/floor/carpet/black; width = 25},/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 1},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bs" = (/obj/machinery/camera{c_tag = "X Right wing inside"; dir = 1; name = "Right wing camera (inside)"; network = list("pship")},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bt" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden,/obj/machinery/door/airlock/centcom{name = "SM Engine"; opacity = 1; req_access_txt = "0"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bu" = (/obj/structure/lattice,/turf/open/space/basic,/area/shuttle/pship)
+"bv" = (/obj/structure/window/shuttle/survival_pod,/obj/machinery/door/poddoor/shutters{id = "pshipeng"; name = "Pirate ship shutters (eng)"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bw" = (/obj/machinery/atmospherics/components/unary/thermomachine/freezer{name = "SM gas freezer"; on = 1; target_temperature = 80},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bx" = (/obj/machinery/atmospherics/components/unary/thermomachine/freezer{name = "SM gas freezer"; on = 1; target_temperature = 80},/obj/machinery/camera{c_tag = "X Supermatter"; dir = 2; name = "Supermatter observation"; network = list("pship")},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"by" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible,/obj/machinery/portable_atmospherics/canister/nitrogen,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bz" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{dir = 8},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bA" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible,/obj/machinery/atmospherics/components/binary/volume_pump{dir = 4; on = 1},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bB" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 4},/obj/structure/window/shuttle/survival_pod,/obj/machinery/door/poddoor/shutters{id = "pshipeng"; name = "Pirate ship shutters (eng)"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bC" = (/obj/structure/lattice,/obj/machinery/atmospherics/components/unary/outlet_injector/on{dir = 8},/turf/open/space/basic,/area/shuttle/pship)
+"bD" = (/obj/machinery/light/reinforced{tag = "icon-tube1 (WEST)"; icon_state = "tube1"; dir = 8},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bE" = (/obj/machinery/atmospherics/pipe/simple/general/visible{dir = 6},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bF" = (/obj/machinery/atmospherics/pipe/manifold/general/visible,/obj/item/storage/toolbox/syndicate,/obj/item/clothing/glasses/welding,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bG" = (/obj/machinery/atmospherics/pipe/manifold/general/visible,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bH" = (/obj/machinery/atmospherics/pipe/manifold/general/visible{dir = 4},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bI" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,/obj/machinery/meter,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bJ" = (/obj/machinery/meter,/obj/machinery/atmospherics/pipe/manifold/cyan/visible{dir = 8},/obj/machinery/light/reinforced{tag = "icon-tube1 (EAST)"; icon_state = "tube1"; dir = 4},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bK" = (/obj/machinery/atmospherics/components/binary/volume_pump{dir = 4; on = 0},/turf/closed/wall/mineral/titanium/survival,/area/shuttle/pship)
+"bL" = (/obj/machinery/power/apc{areastring = "/area/prisonv2/kachalka"; dir = 8; name = "Pirate Ship APC"; pixel_x = -25; pixel_y = 1},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bM" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bN" = (/obj/machinery/atmospherics/pipe/simple/general/visible,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bO" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/item/storage/toolbox/syndicate,/obj/item/clothing/glasses/welding,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bP" = (/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/machinery/power/smes/engineering,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bQ" = (/obj/machinery/power/terminal{tag = "icon-term (WEST)"; icon_state = "term"; dir = 8},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bR" = (/obj/machinery/atmospherics/components/trinary/filter{dir = 1; filter_type = "plasma"; on = 1},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bS" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bT" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible,/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bU" = (/obj/machinery/airalarm{dir = 4; locked = 0; pixel_x = -22},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bV" = (/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 1},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bW" = (/obj/machinery/atmospherics/pipe/simple/general/visible,/obj/effect/turf_decal/stripes/line,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bX" = (/obj/machinery/power/rad_collector/anchored,/obj/item/tank/internals/plasma,/obj/effect/turf_decal/stripes/line,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bY" = (/obj/machinery/power/rad_collector/anchored,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/item/tank/internals/plasma,/obj/effect/turf_decal/stripes/line,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"bZ" = (/obj/machinery/atmospherics/components/trinary/filter{dir = 1; filter_type = "oxygen"; on = 1},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/turf_decal/stripes/line,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ca" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cb" = (/obj/machinery/atmospherics/pipe/manifold/cyan/visible{dir = 4},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cc" = (/obj/machinery/door/airlock/survival_pod/vertical,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cd" = (/obj/machinery/conveyor_switch/oneway{id = "piratesupermatter"; name = "SM eject"; pixel_x = 22},/obj/machinery/button/door{id = "pirateSM"; name = "Supermatter emergency ejection"; pixel_x = 25; pixel_y = 10; req_access_txt = "0"},/obj/effect/turf_decal/stripes/line{dir = 4},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ce" = (/obj/machinery/atmospherics/components/binary/pump{dir = 2; icon_state = "pump_map"; name = "Gas to Chamber"},/turf/closed/wall/r_wall,/area/shuttle/pship)
+"cf" = (/obj/effect/spawner/structure/window/plasma/reinforced,/turf/open/floor/engine,/area/shuttle/pship)
+"cg" = (/obj/machinery/atmospherics/components/binary/pump{dir = 1; name = "Gas to Filter"},/turf/closed/wall/r_wall,/area/shuttle/pship)
+"ch" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on{dir = 1},/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ci" = (/obj/machinery/light/reinforced{tag = "icon-tube1 (EAST)"; icon_state = "tube1"; dir = 4},/obj/machinery/camera{c_tag = "X Eng storage left"; dir = 8; name = "Eng storage left"; network = list("pship")},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cj" = (/obj/machinery/power/emitter/anchored{anchored = 0},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ck" = (/obj/effect/turf_decal/stripes/line{dir = 4},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cl" = (/obj/effect/spawner/structure/window/plasma/reinforced,/obj/machinery/atmospherics/pipe/manifold/general/visible{dir = 8},/turf/open/floor/engine,/area/shuttle/pship)
+"cm" = (/obj/machinery/conveyor{armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70); id = "piratesupermatter"; name = "Heatproof conveyor belt"},/obj/machinery/atmospherics/pipe/heat_exchanging/simple{dir = 6},/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 8; name = "SM vent"},/turf/open/floor/engine,/area/shuttle/pship)
+"cn" = (/obj/machinery/conveyor{armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70); id = "piratesupermatter"; name = "Heatproof conveyor belt"},/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{dir = 1; name = "pipe manifold 1"},/turf/open/floor/engine,/area/shuttle/pship)
+"co" = (/obj/machinery/conveyor{armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70); id = "piratesupermatter"; name = "Heatproof conveyor belt"},/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{dir = 1; name = "pipe manifold 1"},/obj/machinery/atmospherics/components/unary/vent_scrubber/on{dir = 4; name = "SM air scrubber"},/turf/open/floor/engine,/area/shuttle/pship)
+"cp" = (/obj/effect/spawner/structure/window/plasma/reinforced,/obj/machinery/atmospherics/pipe/heat_exchanging/junction{dir = 8},/obj/machinery/atmospherics/pipe/manifold/general/visible{dir = 4},/turf/open/floor/engine,/area/shuttle/pship)
+"cq" = (/obj/machinery/atmospherics/components/binary/pump{dir = 4; name = "Cooling Loop to Gas"; on = 0; target_pressure = 4500},/obj/machinery/power/rad_collector/anchored,/obj/item/tank/internals/plasma,/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cr" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 8},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cs" = (/obj/machinery/light/reinforced{tag = "icon-tube1 (WEST)"; icon_state = "tube1"; dir = 8},/obj/machinery/camera{c_tag = "X Eng storage right"; dir = 4; name = "Eng storage right"; network = list("pship")},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"ct" = (/obj/machinery/camera{c_tag = "X Eng left"; dir = 8; name = "Eng left"; network = list("pship")},/turf/open/space/basic,/area/space)
+"cu" = (/obj/machinery/portable_atmospherics/canister/toxins,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cv" = (/obj/structure/reflector/box/anchored{dir = 4},/obj/machinery/light/reinforced{tag = "icon-tube1 (WEST)"; icon_state = "tube1"; dir = 8},/obj/machinery/camera{c_tag = "X Supermatter 2"; dir = 4; name = "Supermatter observation 2"; network = list("pship")},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cw" = (/obj/effect/turf_decal/stripes/line{dir = 4},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cx" = (/obj/machinery/conveyor{armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70); id = "piratesupermatter"; name = "Heatproof conveyor belt"},/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{dir = 4; name = "pipe manifold 4"},/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 8; name = "SM vent"},/turf/open/floor/engine,/area/shuttle/pship)
+"cy" = (/obj/machinery/conveyor{armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70); id = "piratesupermatter"; name = "Heatproof conveyor belt"},/obj/machinery/power/supermatter_shard,/obj/machinery/atmospherics/pipe/heat_exchanging/manifold4w,/turf/open/floor/engine,/area/shuttle/pship)
+"cz" = (/obj/machinery/conveyor{armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70); id = "piratesupermatter"; name = "Heatproof conveyor belt"},/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{dir = 8; name = "pipe manifold 8"},/obj/machinery/atmospherics/components/unary/vent_scrubber/on{dir = 4; name = "SM air scrubber"},/turf/open/floor/engine,/area/shuttle/pship)
+"cA" = (/obj/effect/spawner/structure/window/plasma/reinforced,/obj/machinery/atmospherics/pipe/manifold/general/visible{dir = 4},/turf/open/floor/engine,/area/shuttle/pship)
+"cB" = (/obj/machinery/power/rad_collector/anchored,/obj/item/tank/internals/plasma,/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cC" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light/reinforced{tag = "icon-tube1 (EAST)"; icon_state = "tube1"; dir = 4},/obj/machinery/camera{c_tag = "X Supermatter 3"; dir = 8; name = "Supermatter observation 3"; network = list("pship")},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cD" = (/obj/machinery/portable_atmospherics/canister/freon,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cE" = (/obj/machinery/camera{c_tag = "X Eng right"; dir = 4; name = "Eng right"; network = list("pship")},/turf/open/space/basic,/area/space)
+"cF" = (/obj/structure/shuttle/engine/heater,/obj/effect/turf_decal/stripes/line,/obj/structure/window/reinforced{dir = 1},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cG" = (/obj/machinery/power/emitter/anchored{anchored = 0; dir = 1},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cH" = (/obj/effect/turf_decal/stripes/line{dir = 4},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cI" = (/obj/effect/spawner/structure/window/plasma/reinforced,/obj/machinery/atmospherics/pipe/simple/general/visible{dir = 5},/turf/open/floor/engine,/area/shuttle/pship)
+"cJ" = (/obj/machinery/conveyor{armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70); id = "piratesupermatter"; name = "Heatproof conveyor belt"},/obj/machinery/atmospherics/pipe/heat_exchanging/simple{dir = 5},/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 8; name = "SM vent"},/turf/open/floor/engine,/area/shuttle/pship)
+"cK" = (/obj/machinery/conveyor{armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70); id = "piratesupermatter"; name = "Heatproof conveyor belt"},/obj/machinery/atmospherics/pipe/heat_exchanging/manifold,/turf/open/floor/engine,/area/shuttle/pship)
+"cL" = (/obj/machinery/conveyor{armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70); id = "piratesupermatter"; name = "Heatproof conveyor belt"},/obj/machinery/atmospherics/pipe/heat_exchanging/manifold,/obj/machinery/atmospherics/components/unary/vent_scrubber/on{dir = 4; name = "SM air scrubber"},/turf/open/floor/engine,/area/shuttle/pship)
+"cM" = (/obj/effect/spawner/structure/window/plasma/reinforced,/obj/machinery/atmospherics/pipe/heat_exchanging/junction{dir = 8},/obj/machinery/atmospherics/pipe/simple/general/visible{dir = 9},/turf/open/floor/engine,/area/shuttle/pship)
+"cN" = (/obj/machinery/atmospherics/components/binary/pump{dir = 8; name = "Gas to Cooling Loop"; on = 1; target_pressure = 4500},/obj/machinery/power/rad_collector/anchored,/obj/item/tank/internals/plasma,/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cO" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 8; name = "Freon port"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cP" = (/obj/structure/shuttle/engine/propulsion/left,/obj/effect/turf_decal/stripes/line,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cQ" = (/turf/closed/wall/r_wall,/area/shuttle/pship)
+"cR" = (/obj/machinery/conveyor{armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70); id = "piratesupermatter"; name = "Heatproof conveyor belt"},/obj/machinery/door/poddoor{armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70); id = "pirateSM"; name = "Supermatter external blast door"},/turf/open/floor/engine,/area/shuttle/pship)
+"cS" = (/obj/structure/shuttle/engine/propulsion/right,/obj/effect/turf_decal/stripes/line,/turf/open/floor/pod/dark,/area/shuttle/pship)
+"cT" = (/turf/open/space/basic,/area/shuttle/pship)
+"cU" = (/obj/structure/shuttle/engine/huge,/turf/open/space/basic,/area/shuttle/pship)
+"cV" = (/obj/structure/shuttle/engine/propulsion{dir = 8},/turf/open/space/basic,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"cW" = (/obj/structure/shuttle/engine/heater{dir = 8},/obj/structure/window/reinforced{dir = 4},/turf/open/floor/plating/airless,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"cX" = (/turf/closed/wall/mineral/titanium/survival/pod,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"cY" = (/turf/open/floor/plating,/turf/closed/wall/mineral/plastitanium{dir = 4; icon_state = "diagonalWall3"},/turf/closed/wall/mineral/titanium,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"cZ" = (/turf/closed/wall/mineral/titanium,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"da" = (/obj/machinery/door/airlock/glass_external,/obj/structure/fans/tiny,/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"db" = (/turf/closed/wall/mineral/titanium/overspace,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"dc" = (/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"dd" = (/obj/structure/window/shuttle,/obj/structure/grille,/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"de" = (/obj/machinery/door/airlock/glass_external,/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"df" = (/obj/machinery/power/apc,/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"dg" = (/obj/item/clothing/glasses/meson/truesight,/turf/open/floor/plasteel/darkyellow,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"dh" = (/turf/open/floor/plasteel/darkyellow,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"di" = (/obj/machinery/computer/shuttle/monastery_shuttle{desc = "Used to control the shuttle."; last_move = null; name = "shuttle console (lship)"; possible_destinations = "lship_away;lship_custom"; shuttleId = "lship"},/turf/open/floor/plasteel/darkyellow,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"dj" = (/obj/structure/window/shuttle,/obj/structure/grille,/turf/open/floor/plating,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"dk" = (/obj/docking_port/mobile{dheight = 12; dir = 4; dwidth = 8; height = 23; id = "lship"; name = "lship"; width = 15},/obj/docking_port/stationary{dheight = 12; dir = 4; dwidth = 8; height = 23; id = "lship_away"; name = "lship dock"; width = 15},/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"dl" = (/obj/item/device/gps,/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"dm" = (/obj/structure/chair/comfy{dir = 4},/obj/effect/mob_spawn/human/skeleton/alive,/turf/open/floor/plasteel/darkyellow,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"dn" = (/obj/structure/table/reinforced,/turf/open/floor/plasteel/darkyellow,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"do" = (/obj/machinery/computer/camera_advanced/shuttle_docker/syndicate{desc = "Used to designate a precise transit location for the shuttle."; jump_action = null; jumpto_ports = list("lship_custom" = 1, "whiteship_lavaland" = 1, "whiteship_z4" = 1, "whiteship_home" = 1, "arrivals" = 1); name = "ship navigation system"; shuttleId = "lship"; shuttlePortId = "lship_custom"; view_range = 20; x_offset = 0; y_offset = 0; z_lock = 0},/turf/open/floor/plasteel/darkyellow,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"dp" = (/turf/open/floor/plating,/turf/closed/wall/mineral/plastitanium{dir = 1; icon_state = "diagonalWall3"},/turf/closed/wall/mineral/titanium,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacacacacacabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacadaeafagadababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacahahahaiahahahacacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacajahakalamanaoahapacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacaqahahaharasatauavacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawaxayahazahaAahahaBawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawaCahaDahahaEaFahahaGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaHaaaaaaaaaaawaIahahahahaJaKahahawaaaaaaaaaaaLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawaMaNaNaNaNaNawawawawawaOaPaQawawawaNaNaNaNaNaMawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawahahahaRaRaSaTaUaUaUaUaUaVaWaXaUaTaYaRaRahahahawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawawaZahbabbbcbdbebfbebebgbhbebibgbdbjbkblahaZawawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawawahbmbnboawbpbqbmahbrahbmaKaEawbobsbmahawawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawawawawawawawbtawawawawawaQaPawawawawawawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabubvbpbqahbwbxbwbybzbAbBbCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabuawbDbqbEbFbGbGbHbIbJbKbCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawawbLbMbNbObPbQbRbSbTawawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawawawbUbVbWbXbYbYbZcacbawawawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawawahccahcdcecfcfcfcgchbVccahawawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabvahciawcjckclcmcncocpcqcrawcsahbvaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaactawaZcuawcvcwclcxcyczcAcBcCawcDaZawcEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawcFcFawcGcHcIcJcKcLcMcNcOawcFcFawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawcPcPawawawcQcRcRcRcQawawawcScSawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacTcTcTaaaaaaaaaacTcTcTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacUcTcTaaaaaaaaaacUcTcTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacVcWcXcXcXcXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacVcWcXcXcXcXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacVcWcYcZcZcZcZdadadbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadbcZcZcZdcdcdccZdcdccZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadddcdcdcdcdcdccZdedecZcZddddddcZdbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadbcZcZdcdcdcdcdcdcdcdcdcdcdcdcdcdcdccZddddcZdbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadcdcdcdcdcdcdcdfdcdcdcdcdcdcdcdcdcdcdgdhdidjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacZdcdcdcdcdcdcdcdcdcdcdkdcdcdcdcdcdcdldhdmdndjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdhdhdodjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadbcZcZdcdcdcdcdcdcdcdcdcdcdcdcdcdcdccZddddcZdbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadddcdcdcdcdcdccZdedecZcZcZcZcZcZdbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadbcZcZcZdcdcdccZdcdccZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacVcWdpcZcZcZcZdadadbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacVcWcXcXcXcXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacVcWcXcXcXcXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}
