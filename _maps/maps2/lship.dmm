@@ -1,0 +1,39 @@
+"a" = (/turf/open/space/basic,/area/space)
+"b" = (/obj/structure/shuttle/engine/propulsion{dir = 8},/turf/open/space/basic,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"c" = (/obj/structure/shuttle/engine/heater{dir = 8},/obj/structure/window/reinforced{dir = 4},/turf/open/floor/plating/airless,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"d" = (/turf/closed/wall/mineral/titanium,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"e" = (/turf/closed/wall/mineral/titanium/overspace,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"f" = (/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"g" = (/turf/open/floor/plating,/turf/closed/wall/mineral/plastitanium{dir = 4; icon_state = "diagonalWall3"},/turf/closed/wall/mineral/titanium,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"h" = (/obj/machinery/door/airlock/glass_external,/obj/structure/fans/tiny,/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"i" = (/obj/structure/window/shuttle,/obj/structure/grille,/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"j" = (/obj/machinery/door/airlock/glass_external,/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"k" = (/obj/machinery/power/apc,/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"l" = (/turf/open/floor/plasteel/darkyellow,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"m" = (/obj/machinery/computer/shuttle/monastery_shuttle{desc = "Used to control the shuttle."; last_move = null; name = "shuttle console (lship)"; possible_destinations = "lship_away;lship_custom"; shuttleId = "lship"},/turf/open/floor/plasteel/darkyellow,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"n" = (/obj/structure/window/shuttle,/obj/structure/grille,/turf/open/floor/plating,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"o" = (/obj/docking_port/mobile{dheight = 12; dir = 4; dwidth = 8; height = 23; id = "lship"; name = "lship"; width = 15},/obj/docking_port/stationary{dheight = 12; dir = 4; dwidth = 8; height = 23; id = "lship_away"; name = "lship dock"; width = 15},/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"p" = (/obj/item/device/gps,/turf/open/floor/plasteel/black,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"q" = (/obj/structure/chair/comfy{dir = 4},/obj/effect/mob_spawn/human/skeleton/alive,/turf/open/floor/plasteel/darkyellow,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"r" = (/obj/structure/table/reinforced,/obj/item/clothing/glasses/meson/truesight,/turf/open/floor/plasteel/darkyellow,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"s" = (/obj/machinery/computer/camera_advanced/shuttle_docker/syndicate{desc = "Used to designate a precise transit location for the shuttle."; jump_action = null; jumpto_ports = list("lship_custom" = 1, "whiteship_lavaland" = 1, "whiteship_z4" = 1, "whiteship_home" = 1, "arrivals" = 1); name = "ship navigation system"; shuttleId = "lship"; shuttlePortId = "lship_custom"; view_range = 20; x_offset = 0; y_offset = 0; z_lock = 0},/turf/open/floor/plasteel/darkyellow,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"t" = (/turf/open/floor/plating,/turf/closed/wall/mineral/plastitanium{dir = 1; icon_state = "diagonalWall3"},/turf/closed/wall/mineral/titanium,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+"u" = (/turf/closed/wall/mineral/titanium/nosmooth,/area/shuttle/sbc_fighter1{name = "lship_debug"; requires_power = 0})
+
+(1,1,1) = {"
+aaabcdddeaaaaaaaaaaaaaa
+aaabcdffdeaaaaaaaaaaaaa
+aaabcgfffdhheaaaaaaaaaa
+aaedddfffdffdaaaaaaaaaa
+aaiffffffdjjddiiideaaaa
+eddfffffffffffffffdiide
+hfffffffkffffffffffllmn
+dffffffffffoffffffplqrn
+hffffffffffffffffffllsn
+eddfffffffffffffffdiide
+aaiffffffdjjddiiideaaaa
+aaedddfffdffdaaaaaaaaaa
+aaabctfffdhheaaaaaaaaaa
+aaabcdffdeaaaaaaaaaaaaa
+aaabcuddeaaaaaaaaaaaaaa
+"}
