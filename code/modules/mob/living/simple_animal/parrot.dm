@@ -868,7 +868,7 @@
 /mob/living/simple_animal/parrot/Poly
 	name = "Poly"
 	desc = "Poly the Parrot. An expert on quantum cracker theory."
-	speak = list("Poly wanna cracker!", ":e Check the crystal, you chucklefucks!",":e Wire the solars, you lazy bums!",":e WHO TOOK THE DAMN HARDSUITS?",":e OH GOD ITS ABOUT TO DELAMINATE CALL THE SHUTTLE")
+	speak = list("???? ????? ??????!", ":e ????????? ????????, ??????? ?????!",":e ????????? ??????, ??????? ???????!",":e ??? ??????? ??? ????????",":e ???????? ?????, ? ?????? ?? ????????")
 	gold_core_spawnable = 0
 	speak_chance = 3
 	var/memory_saved = 0
@@ -898,11 +898,14 @@
 	..()
 
 /mob/living/simple_animal/parrot/Poly/Life()
+	if(prob(0.5))
+		Write_Memory()
 	if(!stat && SSticker.current_state == GAME_STATE_FINISHED && !memory_saved)
 		rounds_survived = max(++rounds_survived,1)
 		if(rounds_survived > longest_survival)
 			longest_survival = rounds_survived
-		Write_Memory()
+
+
 	..()
 
 /mob/living/simple_animal/parrot/Poly/death(gibbed)
@@ -923,22 +926,24 @@
 	..(gibbed)
 
 /mob/living/simple_animal/parrot/Poly/proc/Read_Memory()
-	var/savefile/S = new /savefile("data/npc_saves/Poly.sav")
+	var/savefile/S = file("data/npc_saves/Poly_phrases.sav")
+	var/savefile/Q = file("data/npc_saves/Poly.sav")
 	S["phrases"] 			>> speech_buffer
-	S["roundssurvived"]		>> rounds_survived
-	S["longestsurvival"]	>> longest_survival
-	S["longestdeathstreak"] >> longest_deathstreak
+	Q["roundssurvived"]		>> rounds_survived
+	Q["longestsurvival"]	>> longest_survival
+	Q["longestdeathstreak"] >> longest_deathstreak
 
 	if(!islist(speech_buffer))
 		speech_buffer = list()
 
 /mob/living/simple_animal/parrot/Poly/proc/Write_Memory()
-	var/savefile/S = new /savefile("data/npc_saves/Poly.sav")
-	if(islist(speech_buffer))
-		WRITE_FILE(S["phrases"], speech_buffer)
-	WRITE_FILE(S["roundssurvived"], rounds_survived)
-	WRITE_FILE(S["longestsurvival"], longest_survival)
-	WRITE_FILE(S["longestdeathstreak"], longest_deathstreak)
+	var/savefile/S = file("data/npc_saves/Poly_phrases.sav")
+	var/savefile/Q = new/savefile("data/npc_saves/Poly.sav")
+	var/pickfrase = pick(speech_buffer)
+	S["phrases"] << pickfrase
+	Q["roundssurvived"] << rounds_survived
+	Q["longestsurvival"] << longest_survival
+	Q["longestdeathstreak"] << longest_deathstreak
 	memory_saved = 1
 
 /mob/living/simple_animal/parrot/Poly/ghost
@@ -955,7 +960,7 @@
 	..()
 
 /mob/living/simple_animal/parrot/Poly/ghost/handle_automated_speech()
-	if(ismob(loc))
+	if(ismob(loc) && prob(25))
 		return
 	..()
 
