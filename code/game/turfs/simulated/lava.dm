@@ -23,8 +23,11 @@
 /turf/open/lava/airless
 	initial_gas_mix = "TEMP=2.7"
 
-/turf/open/lava/Entered(atom/movable/AM)
-	if(burn_stuff(AM))
+/turf/open/lava/Entered(atom/movable/AM, atom/oldLoc)
+	if (!oldLoc || (oldLoc && !isobj(oldLoc) && !ismob(oldLoc))) //entered from null or not (/obj and /mob) then
+		if(burn_stuff(AM))
+			START_PROCESSING(SSobj, src)
+	else //if entered from /mob or /obj, start processing lava turf, burn_stuff applies to AM in process() if it stays on lava turf
 		START_PROCESSING(SSobj, src)
 
 /turf/open/lava/hitby(atom/movable/AM)
