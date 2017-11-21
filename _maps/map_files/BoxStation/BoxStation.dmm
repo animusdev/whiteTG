@@ -399,10 +399,14 @@
 /turf/closed/wall,
 /area/security/main)
 "abq" = (
-/turf/closed/wall,
+/turf/closed/wall/r_wall,
 /area/crew_quarters/heads/hos)
 "abr" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 8882;
+	name = "HoS office shutters"
+	},
 /turf/open/floor/plating,
 /area/crew_quarters/heads/hos)
 "abs" = (
@@ -652,8 +656,8 @@
 	pixel_y = 23
 	},
 /obj/item/gun/energy/ionrifle,
-/obj/item/gun/energy/temperature/security,
 /obj/item/clothing/suit/armor/laserproof,
+/obj/item/gun/energy/temperature,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -1094,6 +1098,10 @@
 	pixel_x = -3;
 	pixel_y = 7
 	},
+/obj/machinery/button{
+	id = 8882;
+	name = "privacy shutters"
+	},
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/hos)
 "acS" = (
@@ -1294,6 +1302,10 @@
 "adm" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 8882;
+	name = "HoS office shutters"
+	},
 /turf/open/floor/plating,
 /area/crew_quarters/heads/hos)
 "adn" = (
@@ -1864,6 +1876,10 @@
 "aex" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 8882;
+	name = "HoS office shutters"
+	},
 /turf/open/floor/plating,
 /area/crew_quarters/heads/hos)
 "aey" = (
@@ -19401,6 +19417,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel,
 /area/bridge)
 "aWN" = (
@@ -19409,6 +19428,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
 /turf/open/floor/plasteel,
 /area/bridge)
@@ -19425,6 +19447,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/blue/side{
 	dir = 0
 	},
@@ -19432,6 +19457,9 @@
 "aWP" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/blue/corner,
 /area/bridge)
@@ -19442,6 +19470,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/blue/side{
 	dir = 0
@@ -19454,6 +19485,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/blue/side{
 	dir = 0
 	},
@@ -19464,6 +19498,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/blue/side{
 	dir = 0
@@ -19481,6 +19518,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/blue/side{
 	dir = 0
 	},
@@ -19488,6 +19528,9 @@
 "aWU" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/blue/side{
 	dir = 0
@@ -19506,6 +19549,9 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/blue/side{
 	dir = 0
 	},
@@ -19520,6 +19566,9 @@
 /obj/structure/cable,
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/blue/side{
 	dir = 0
 	},
@@ -19531,6 +19580,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/blue/side{
 	dir = 0
 	},
@@ -19538,6 +19590,9 @@
 "aWY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/blue/corner{
 	dir = 8
@@ -19560,11 +19615,14 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 6
 	},
 /turf/open/floor/plasteel,
 /area/bridge)
@@ -20016,11 +20074,14 @@
 /turf/open/floor/plating,
 /area/maintenance/port)
 "aYg" = (
-/obj/effect/landmark/xeno_spawn,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/obj/machinery/door/airlock/engineering/abandoned{
+	name = "Construction Area";
+	req_access_txt = "32"
+	},
+/turf/open/floor/plasteel,
 /area/construction)
 "aYh" = (
 /obj/structure/disposalpipe/segment{
@@ -20606,7 +20667,13 @@
 "aZI" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/cardboard,
-/obj/item/stack/rods/fifty,
+/obj/item/stack/rods{
+	amount = 50
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = 3;
+	pixel_y = 3
+	},
 /turf/open/floor/plasteel/floorgrime,
 /area/quartermaster/storage)
 "aZJ" = (
@@ -20731,14 +20798,14 @@
 /turf/open/floor/plasteel/bar,
 /area/crew_quarters/bar)
 "baf" = (
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 9
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
@@ -21066,6 +21133,10 @@
 "baY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 4;
+	name = "4maintenance loot spawner"
+	},
 /turf/open/floor/plasteel/floorgrime,
 /area/quartermaster/storage)
 "baZ" = (
@@ -21143,10 +21214,10 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/wood,
 /area/bridge/meeting_room)
 "bbj" = (
@@ -21219,6 +21290,10 @@
 "bbt" = (
 /obj/structure/closet/crate,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 4;
+	name = "4maintenance loot spawner"
+	},
 /turf/open/floor/plasteel/floorgrime,
 /area/quartermaster/storage)
 "bbu" = (
@@ -21234,14 +21309,8 @@
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bbv" = (
-/obj/machinery/status_display{
-	pixel_y = 32
-	},
 /obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "2-4"
+	icon_state = "4-8"
 	},
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/captain)
@@ -21388,6 +21457,10 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 4
 	},
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 4;
+	name = "4maintenance loot spawner"
+	},
 /turf/open/floor/plasteel/floorgrime,
 /area/quartermaster/storage)
 "bbT" = (
@@ -21521,9 +21594,6 @@
 "bcm" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
 	},
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/captain)
@@ -21680,6 +21750,10 @@
 	dir = 8
 	},
 /obj/structure/closet/crate/freezer,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 4;
+	name = "4maintenance loot spawner"
+	},
 /turf/open/floor/plasteel/floorgrime,
 /area/quartermaster/storage)
 "bcK" = (
@@ -22118,6 +22192,10 @@
 /area/maintenance/port)
 "bdS" = (
 /obj/structure/closet/crate/internals,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 4;
+	name = "4maintenance loot spawner"
+	},
 /turf/open/floor/plasteel/floorgrime,
 /area/quartermaster/storage)
 "bdT" = (
@@ -22137,6 +22215,10 @@
 /area/maintenance/port)
 "bdU" = (
 /obj/structure/closet/crate/medical,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 4;
+	name = "4maintenance loot spawner"
+	},
 /turf/open/floor/plasteel/floorgrime,
 /area/quartermaster/storage)
 "bdV" = (
@@ -22217,9 +22299,7 @@
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai_upload)
 "bee" = (
-/obj/machinery/computer/upload/ai{
-	dir = 1
-	},
+/obj/machinery/computer/upload/ai,
 /obj/machinery/flasher{
 	id = "AI";
 	pixel_y = -21
@@ -22227,9 +22307,7 @@
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai_upload)
 "bef" = (
-/obj/machinery/computer/upload/borg{
-	dir = 1
-	},
+/obj/machinery/computer/upload/borg,
 /obj/item/device/radio/intercom{
 	broadcasting = 1;
 	frequency = 1447;
@@ -22289,9 +22367,6 @@
 /turf/open/floor/plating,
 /area/maintenance/port)
 "bem" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/captain)
 "ben" = (
@@ -22393,6 +22468,10 @@
 	dir = 6
 	},
 /obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 4;
+	name = "4maintenance loot spawner"
+	},
 /turf/open/floor/plasteel/floorgrime,
 /area/quartermaster/storage)
 "bey" = (
@@ -22435,6 +22514,10 @@
 	dir = 9
 	},
 /obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 4;
+	name = "4maintenance loot spawner"
+	},
 /turf/open/floor/plasteel/floorgrime,
 /area/quartermaster/storage)
 "beE" = (
@@ -22727,8 +22810,12 @@
 /area/quartermaster/sorting)
 "bfm" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 246;
+	name = "Cargo shutters"
+	},
 /turf/open/floor/plating,
-/area/quartermaster/office)
+/area/quartermaster/storage)
 "bfn" = (
 /obj/machinery/disposal/deliveryChute{
 	dir = 8
@@ -22804,6 +22891,7 @@
 	pixel_y = 7
 	},
 /obj/item/pen,
+/obj/item/device/camera,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bfz" = (
@@ -22828,6 +22916,9 @@
 "bfC" = (
 /obj/structure/table/wood,
 /obj/item/device/flashlight/lamp/green,
+/obj/item/storage/photo_album{
+	pixel_y = -10
+	},
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bfD" = (
@@ -22837,15 +22928,20 @@
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bfE" = (
-/obj/structure/table/wood,
-/obj/item/pinpointer/nuke,
-/obj/item/disk/nuclear,
 /obj/item/storage/secure/safe{
 	pixel_x = 35;
 	pixel_y = 5
 	},
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/machinery/porta_turret/stationary{
+	density = 0;
+	emagged = 0;
+	faction = "Station";
+	installation = /obj/item/gun/energy/e_gun/turret;
+	mode = 0;
+	stun_all = 1
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
@@ -22907,8 +23003,12 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 246;
+	name = "Cargo shutters"
+	},
 /turf/open/floor/plating,
-/area/quartermaster/sorting)
+/area/quartermaster/storage)
 "bfR" = (
 /obj/structure/table/reinforced,
 /obj/item/hand_labeler{
@@ -23282,9 +23382,7 @@
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bgT" = (
-/obj/machinery/computer/communications{
-	dir = 8
-	},
+/obj/machinery/computer/communications,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
@@ -23303,9 +23401,6 @@
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bgW" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/machinery/holopad,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
@@ -23315,10 +23410,8 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/obj/item/device/camera,
-/obj/item/storage/photo_album{
-	pixel_y = -10
-	},
+/obj/item/disk/nuclear,
+/obj/item/pinpointer/nuke,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bgY" = (
@@ -23850,9 +23943,7 @@
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bil" = (
-/obj/machinery/computer/card{
-	dir = 8
-	},
+/obj/machinery/computer/card,
 /obj/item/card/id/captains_spare,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/wood,
@@ -24430,9 +24521,6 @@
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bjH" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -24
@@ -24440,9 +24528,7 @@
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bjI" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
+/obj/machinery/light,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bjJ" = (
@@ -24759,7 +24845,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/closed/wall,
-/area/quartermaster/sorting)
+/area/quartermaster/storage)
 "bky" = (
 /turf/closed/wall,
 /area/maintenance/starboard)
@@ -24833,8 +24919,12 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 9
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 246;
+	name = "Cargo shutters"
+	},
 /turf/open/floor/plating,
-/area/quartermaster/sorting)
+/area/quartermaster/storage)
 "bkI" = (
 /obj/machinery/light{
 	dir = 8
@@ -24867,6 +24957,10 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 246;
+	name = "Cargo shutters"
 	},
 /turf/open/floor/plating,
 /area/quartermaster/office)
@@ -25552,6 +25646,10 @@
 	input_dir = 8;
 	output_dir = 4
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 246;
+	name = "Cargo shutters"
+	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/plasteel/floorgrime,
 /area/quartermaster/office)
@@ -25793,8 +25891,12 @@
 	},
 /obj/structure/table,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/button/door{
+	id = 246;
+	name = "Privacy Shutters"
+	},
 /turf/open/floor/plasteel,
-/area/quartermaster/office)
+/area/quartermaster/storage)
 "bmR" = (
 /obj/structure/table,
 /obj/item/paper/guides/jobs/medical/morgue{
@@ -26135,7 +26237,7 @@
 /obj/structure/table,
 /obj/machinery/computer/stockexchange,
 /turf/open/floor/plasteel,
-/area/quartermaster/office)
+/area/quartermaster/storage)
 "bnH" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -26664,6 +26766,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 246;
+	name = "Cargo shutters"
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/office)
@@ -28161,9 +28267,6 @@
 "bso" = (
 /obj/machinery/light_switch{
 	pixel_x = 27
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/teleporter)
@@ -31392,7 +31495,7 @@
 /area/crew_quarters/heads/hor)
 "bzN" = (
 /obj/machinery/modular_computer/console/preset/research{
-	dir = 8
+	dir = 2
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -36262,14 +36365,13 @@
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "bKU" = (
-/obj/machinery/door/airlock/engineering/abandoned{
-	name = "Construction Area";
-	req_access_txt = "32"
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/obj/machinery/door/airlock/glass{
+	name = "Central Access"
+	},
+/turf/open/floor/plasteel,
 /area/construction)
 "bKV" = (
 /obj/structure/cable{
@@ -36563,11 +36665,11 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "bLC" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 10
 	},
 /turf/open/floor/plating,
 /area/construction)
@@ -39405,7 +39507,15 @@
 /area/security/detectives_office)
 "bSz" = (
 /obj/structure/table,
-/turf/open/floor/plating,
+/obj/item/stack/sheet/glass{
+	amount = 50
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50;
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/turf/open/floor/plasteel,
 /area/construction)
 "bSA" = (
 /obj/structure/disposalpipe/segment,
@@ -47302,7 +47412,15 @@
 "cml" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/turretid{
+	name = "Armory turret panel";
+	pixel_x = 29;
+	pixel_y = 26;
+	control_area = /area/ai_monitored/security/armory
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/warden)
@@ -48255,6 +48373,12 @@
 	pixel_x = -4
 	},
 /obj/structure/table,
+/obj/item/gun/ballistic/automatic/pistol/APS{
+	origin_tech = "combat=3;materials=2";
+	pin = /obj/item/device/firing_pin/implant/mindshield
+	},
+/obj/item/ammo_box/magazine/pistolm9mm,
+/obj/item/ammo_box/magazine/pistolm9mm,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -53247,7 +53371,11 @@
 	amount = 5
 	},
 /obj/item/device/flashlight,
-/turf/open/floor/plating,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel,
 /area/construction)
 "cCc" = (
 /obj/structure/rack,
@@ -57603,6 +57731,133 @@
 /obj/structure/reagent_dispensers/cooking_oil,
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/kitchen)
+"QoM" = (
+/obj/machinery/porta_turret/stationary{
+	density = 0;
+	emagged = 0;
+	faction = "Station";
+	installation = /obj/item/gun/energy/e_gun;
+	mode = 0;
+	stun_all = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel/black,
+/area/ai_monitored/security/armory)
+"QoN" = (
+/obj/item/device/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_y = -29
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/plasteel/blue/side{
+	dir = 0
+	},
+/area/bridge)
+"QoO" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/turretid{
+	control_area = "/area/crew_quarters/heads/captain";
+	name = "Captain office turret control";
+	pixel_y = -25
+	},
+/turf/open/floor/plasteel/blue/side{
+	dir = 0
+	},
+/area/bridge)
+"QoP" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/crew_quarters/heads/captain)
+"QoQ" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
+"QoR" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
+"QoS" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
+"QoT" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 246;
+	name = "Cargo shutters"
+	},
+/turf/open/floor/plating,
+/area/quartermaster/office)
+"QoU" = (
+/obj/machinery/autolathe,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/construction)
+"QoV" = (
+/obj/structure/closet/toolcloset,
+/obj/item/clothing/gloves/color/yellow,
+/turf/open/floor/plasteel,
+/area/construction)
+"QoW" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plasteel,
+/area/construction)
+"QoX" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/open/floor/plasteel,
+/area/construction)
+"QoY" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plasteel,
+/area/construction)
+"QoZ" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
+/turf/open/floor/plasteel,
+/area/construction)
+"Qpa" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/construction)
+"Qpb" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/construction)
+"Qpc" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/light_construct{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/construction)
+"Qpd" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/construction)
+"Qpe" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/construction)
 
 (1,1,1) = {"
 aaa
@@ -80614,7 +80869,7 @@ cNN
 bkH
 bfm
 boS
-bfm
+QoT
 bNK
 bkN
 bml
@@ -84490,7 +84745,7 @@ bCs
 bNJ
 bNJ
 bKx
-cjL
+Qpa
 bNJ
 bNI
 bUA
@@ -84747,8 +85002,8 @@ bCs
 bNL
 bNJ
 apV
-cjL
-bNJ
+Qpb
+Qpe
 bNI
 bUz
 bVJ
@@ -85001,11 +85256,11 @@ bJk
 bFa
 bLA
 bCs
-cCd
+cjo
 bQc
 bKA
-cjL
-bSv
+Qpc
+bNJ
 bNI
 bUB
 bVJ
@@ -85258,11 +85513,11 @@ bJm
 bFa
 bHO
 bCs
-cCd
-cCd
+bNI
+bNI
 aYg
-cjL
-cCc
+cnB
+bNI
 bNI
 bEP
 bVJ
@@ -85515,10 +85770,10 @@ bJl
 bHh
 bHN
 bCs
-cjo
-cCd
-bSx
-cjL
+QoU
+QoX
+QoZ
+Qpd
 cCb
 bNI
 bEP
@@ -85772,8 +86027,8 @@ bJn
 bHi
 bHQ
 bCs
-cjo
-bJu
+QoV
+cCd
 bSx
 cmX
 bSz
@@ -85950,7 +86205,7 @@ aaf
 aaZ
 abm
 cpg
-acv
+abN
 adi
 adi
 aaZ
@@ -86029,8 +86284,8 @@ bCs
 bLD
 bCs
 bCs
-bNI
-bNI
+QoW
+QoY
 bKU
 cnB
 bNI
@@ -87490,12 +87745,12 @@ aaf
 abY
 aaa
 aaZ
-abN
+QoM
 ack
 bkA
 acF
 aes
-avB
+aaZ
 amN
 agt
 awN
@@ -88053,7 +88308,7 @@ aPR
 aUb
 aVq
 aWM
-aYr
+QoN
 aZV
 bbo
 bch
@@ -88567,7 +88822,7 @@ aPR
 aUd
 aVr
 aWZ
-aYq
+QoO
 aZW
 aZG
 bej
@@ -89344,9 +89599,9 @@ bbv
 bcm
 bcm
 bem
-bfD
+bbw
 bgW
-bfD
+bbw
 bjI
 aZV
 bmC
@@ -89606,9 +89861,9 @@ bbw
 bbw
 bjH
 aZV
-bmx
-bmx
-bmx
+aZV
+aZV
+aZV
 bqH
 bsm
 btL
@@ -89855,20 +90110,20 @@ aXg
 aYF
 aZV
 bbw
-bcn
+QoP
 bbw
 ben
 bfE
 bgX
 bbw
-bjJ
-bld
-bmD
-cTD
-bmD
-bqK
+bcn
+aZV
+aaa
+aaa
+aaa
+bqH
 bso
-btN
+btL
 buZ
 buZ
 bqH
@@ -90120,9 +90375,9 @@ aZV
 aZV
 aZV
 aZV
-bmx
-bmx
-bmx
+QoQ
+QoR
+QoS
 bqH
 bqH
 btM
