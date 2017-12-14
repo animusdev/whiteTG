@@ -196,3 +196,26 @@
 	visible_message("<span class='warning'>[src] beeps ominously, and a moment later it bursts up in flames.</span>")
 	qdel(src)
 	new /obj/effect/decal/cleanable/ash(user.drop_location())
+	
+/obj/item/clothing/gloves/combat/cqc
+	name = "combat gloves"
+	desc = "These tactical gloves are fireproof and shock resistant. There are drawn instructions of tactical hand-to-hand combat."
+	icon_state = "black"
+	item_state = "blackgloves"
+	var/datum/martial_art/cqc/style = new
+
+/obj/item/clothing/gloves/combat/cqc/equipped(mob/user, slot)
+	if(!ishuman(user))
+		return
+	if(slot == slot_gloves)
+		var/mob/living/carbon/human/H = user
+		to_chat(usr, "<b><i>You try to remember some of the basics of CQC by looking at pictures drawn on your gloves.</i></b>")
+		style.teach(H,1)
+
+/obj/item/clothing/gloves/combat/cqc/dropped(mob/user)
+	if(!ishuman(user))
+		return
+	var/mob/living/carbon/human/H = user
+	if(H.get_item_by_slot(slot_gloves) == src)
+		to_chat(usr, "<b><i>You try to forget the basics of CQC.</i></b>")
+		style.remove(H)
