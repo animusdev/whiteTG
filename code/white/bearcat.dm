@@ -82,6 +82,7 @@
 	x_offset = 8
 	y_offset = -7
 	z_lock = list(3,4,7,8,9,10,12,13)
+	networks = list("bearcat")
 
 /obj/machinery/computer/shuttle/bearcat
 	name = "CSV Bearcat console"
@@ -91,54 +92,55 @@
 /obj/docking_port/mobile/bearcat
 	name = "CSV Bearcat"
 	id = "bearcat"
-	area_type = /area/shuttle/bearcat/
 	width = 29
 	dwidth = 6
 	height = 44
 	dheight = 30
 	port_direction = SOUTH
 	movement_force = list("KNOCKDOWN" = 0, "THROW" = 0)
+	engine_coeff = 30 //5 mins to move from one point to another
 
 ///////////////////////////Spawners//////////////////////////////
-
-/obj/effect/mob_spawn/human/bearcat/eng
+/obj/effect/mob_spawn/human/bearcatcrew
 	name = "CSV Bearcat cryogenics pod"
-	desc = "A humming cryo pod. You can barely recognise an engineering uniform underneath the built up ice. The machine is attempting to wake up its occupant."
-	mob_name = "an engineer"
+	desc = "An old cryogenics pod. Looks like it has not been touched for decades."
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
 	roundstart = FALSE
 	death = FALSE
 	random = TRUE
 	mob_species = /datum/species/human
-	flavour_text = "<font size=3><b>Y</b></font><b>ou are an engineer aboard CSV Bearcat. You was in cryosleep since \[REDACTED\]. Ohutilniy lor, da?"
+	flavour_text = "<font size=3>You are a member of CSV Bearcat crew."
+
+/obj/effect/mob_spawn/human/bearcatcrew/eng
+	mob_name = "an engineer"
 	uniform = /obj/item/clothing/under/rank/engineer
-	shoes = /obj/item/clothing/shoes/workboots
-	id = /obj/item/card/id/away/old/eng
+	shoes = /obj/item/clothing/shoes/sneakers/black
+	id = /obj/item/card/id
 	gloves = /obj/item/clothing/gloves/color/yellow
-	l_pocket = /obj/item/tank/internals/emergency_oxygen
 	assignedrole = "CSV Bearcat Crew"
+	id_access_list = list(205,204)
 
 /obj/effect/mob_spawn/human/bearcat/eng/Destroy()
 	return ..()
 
-/obj/effect/mob_spawn/human/bearcat/atmos
-	name = "CSV Bearcat cryogenics pod"
-	desc = "A humming cryo pod. You can barely recognise an atmostech uniform underneath the built up ice. The machine is attempting to wake up its occupant."
+/obj/effect/mob_spawn/human/bearcatcrew/atmos
 	mob_name = "an atmostech"
-	icon = 'icons/obj/machines/sleeper.dmi'
-	icon_state = "sleeper"
-	roundstart = FALSE
-	death = FALSE
-	random = TRUE
-	mob_species = /datum/species/human
-	flavour_text = "<font size=3><b>Y</b></font><b>ou are an atmostech aboard CSV Bearcat. You was in cryosleep since \[REDACTED\]. Ohutilniy lor, da? "
 	uniform = /obj/item/clothing/under/rank/atmospheric_technician
-	shoes = /obj/item/clothing/shoes/workboots
-	id = /obj/item/card/id/away/old/eng
+	shoes = /obj/item/clothing/shoes/sneakers/black
+	id = /obj/item/card/id
 	gloves = /obj/item/clothing/gloves/color/black
-	l_pocket = /obj/item/tank/internals/emergency_oxygen
-	assignedrole = "CSV Bearcat Crew"
+	id_access_list = list(205,204)
+
+/obj/effect/mob_spawn/human/bearcat/atmos/Destroy()
+	return ..()
+
+/obj/effect/mob_spawn/human/bearcatcrew/pilot
+	mob_name = "a pilot"
+	uniform = /obj/item/clothing/under/syndicate/camo
+	shoes = /obj/item/clothing/shoes/sneakers/black
+	id = /obj/item/card/id
+	id_access_list = list(205,204,203)
 
 /obj/effect/mob_spawn/human/bearcat/atmos/Destroy()
 	return ..()

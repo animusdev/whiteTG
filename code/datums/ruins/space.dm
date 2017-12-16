@@ -265,5 +265,5 @@
 
 /datum/map_template/ruin/space/bearcat
 	id = "bearcat"
-	suffix = "bearcat_hule.dmm"
+	suffix = "bearcat.dmm"
 	name = "CSV Bearcat"

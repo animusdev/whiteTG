@@ -16,7 +16,7 @@
 	var/space_turfs_only = TRUE
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/GrantActions(mob/living/user)
-	if(!(jumpto_ports.len)|jumpto_ports.len)  //kostil chtob rantaimov ne bilo
+	if(jumpto_ports.len)
 		jump_action = new /datum/action/innate/camera_jump/shuttle_docker
 	..()
 
@@ -252,7 +252,6 @@
 	jump_action = new /datum/action/innate/camera_jump_coord
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/coordinate/GrantActions(mob/living/user)
-
 	rotate_action.target = user
 	rotate_action.Grant(user)
 	actions += rotate_action

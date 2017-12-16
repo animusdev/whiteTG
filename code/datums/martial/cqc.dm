@@ -196,26 +196,69 @@
 	visible_message("<span class='warning'>[src] beeps ominously, and a moment later it bursts up in flames.</span>")
 	qdel(src)
 	new /obj/effect/decal/cleanable/ash(user.drop_location())
-	
-/obj/item/clothing/gloves/combat/cqc
-	name = "combat gloves"
-	desc = "These tactical gloves are fireproof and shock resistant. There are drawn instructions of tactical hand-to-hand combat."
+
+
+
+
+
+
+/obj/item/clothing/gloves/combat/magcqc
+	name = "mag-pulse tacticool gloves"
+	desc = "These tactical gloves are fireproof and shock resistant. There are drawn tacticool instructions of tactical hand-to-hand combat."
 	icon_state = "black"
 	item_state = "blackgloves"
 	var/datum/martial_art/cqc/style = new
+	var/active = 0
+	var/list/stored_items = list()
+	actions_types = list(/datum/action/item_action/toggle)
+	var/item_overlay
 
-/obj/item/clothing/gloves/combat/cqc/equipped(mob/user, slot)
+/obj/item/clothing/gloves/combat/magcqc/equipped(mob/user, slot)
 	if(!ishuman(user))
 		return
 	if(slot == slot_gloves)
 		var/mob/living/carbon/human/H = user
 		to_chat(usr, "<b><i>You try to remember some of the basics of CQC by looking at pictures drawn on your gloves.</i></b>")
 		style.teach(H,1)
+	if(item_overlay)
+		var/mutable_appearance/overlay = mutable_appearance(icon, item_overlay)
+		overlay.color = "#DE7E00"
+		add_overlay(overlay)
+	return ..()
 
-/obj/item/clothing/gloves/combat/cqc/dropped(mob/user)
+/obj/item/clothing/gloves/combat/magcqc/ui_action_click()
+	active = !active
+	if(active)
+		for(var/obj/item/I in usr.held_items)
+			if(!(I.flags_1 & NODROP_1))
+				stored_items += I
+
+		var/list/L = usr.get_empty_held_indexes()
+		if(LAZYLEN(L) == usr.held_items.len)
+			to_chat(usr, "<span class='notice'>You are not holding any items, your hands relax...</span>")
+			active = 0
+			stored_items = list()
+		else
+			for(var/obj/item/I in stored_items)
+				to_chat(usr, "<span class='notice'>Your [usr.get_held_index_name(usr.get_held_index_of_item(I))]'s grip tightens.</span>")
+				I.flags_1 |= NODROP_1
+
+	else
+		release_items()
+		to_chat(usr, "<span class='notice'>Your hands relax...</span>")
+
+/obj/item/clothing/gloves/combat/magcqc/proc/release_items()
+	for(var/obj/item/I in stored_items)
+		I.flags_1 &= ~NODROP_1
+	stored_items = list()
+
+/obj/item/clothing/gloves/combat/magcqc/dropped(mob/user)
 	if(!ishuman(user))
 		return
 	var/mob/living/carbon/human/H = user
 	if(H.get_item_by_slot(slot_gloves) == src)
 		to_chat(usr, "<b><i>You try to forget the basics of CQC.</i></b>")
 		style.remove(H)
+	if(active)
+		ui_action_click()
+	..()
