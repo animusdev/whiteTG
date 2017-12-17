@@ -142,5 +142,5 @@
 	id = /obj/item/card/id
 	id_access_list = list(205,204,203)
 
-/obj/effect/mob_spawn/human/bearcat/atmos/Destroy()
+/obj/effect/mob_spawn/human/bearcat/pilot/Destroy()
 	return ..()
