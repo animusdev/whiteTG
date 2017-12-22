@@ -30,12 +30,12 @@
 "D" = (/obj/machinery/door/airlock/titanium{req_access_txt = "203"},/turf/open/floor/plasteel,/area/ruin/unpowered)
 "E" = (/obj/structure/table/reinforced,/turf/open/floor/jungle,/area/ruin/unpowered)
 "F" = (/obj/item/nullrod/claymore/katana,/mob/living/carbon/monkey{faction = list("jungle"); name = "strange monkey"; viruses = newlist()},/turf/open/floor/jungle,/area/ruin/unpowered)
-"G" = (/obj/structure/table/reinforced,/obj/item/twohanded/vibro_weapon,/mob/living/carbon/monkey{butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/monkey = 5, /obj/item/stack/sheet/animalhide/monkey = 1, /obj/item/organ/zombie_infection = 1); faction = list("jungle"); name = "strange monkey"; see_in_dark = 8},/turf/open/floor/jungle,/area/ruin/powered)
+"G" = (/obj/structure/table/reinforced,/obj/item/twohanded/vibro_weapon,/mob/living/carbon/monkey{butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/monkey = 5, /obj/item/stack/sheet/animalhide/monkey = 1, /obj/item/organ/zombie_infection = 1); faction = list("jungle"); health = 1000; name = "strange monkey"; see_in_dark = 8},/turf/open/floor/jungle,/area/ruin/powered)
 "H" = (/mob/living/simple_animal/hostile/jungle/mega_arachnid,/turf/open/floor/jungle,/area/ruin/unpowered)
 "I" = (/mob/living/simple_animal/hostile/poison/bees/toxin{faction = list("jungle"); name = "pchola"; poison_type = "zombiepowder"},/turf/open/floor/jungle,/area/ruin/unpowered)
 "J" = (/mob/living/simple_animal/hostile/poison/bees/queen{name = "pchola"; poison_type = "zombiepowder"},/turf/open/floor/jungle,/area/ruin/unpowered)
 "K" = (/obj/structure/flora/junglebush,/mob/living/simple_animal/hostile/jungle/mega_arachnid,/turf/open/floor/jungle,/area/ruin/unpowered)
-"L" = (/obj/item/seeds/kudzu{anchored = 2; layer = 2; mutations = list("fire_proof","flowering","woodening","aggressive_spread"); name = "hidden pack of kudzu seeds"; potency = 0; production = 10},/turf/closed/wall/mineral/wood,/area/ruin/unpowered)
+"L" = (/obj/item/seeds/kudzu{anchored = 0; layer = 2; mutations = list("fire_proof","flowering","woodening","aggressive_spread"); name = "hidden pack of kudzu seeds"; potency = 0; production = 10},/turf/closed/wall/mineral/wood,/area/ruin/unpowered)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -48,25 +48,25 @@ aaabbccccbccdgdedffhieddcbbbbbbbcaaaaaaa
 aaabbbccbbcjdgffiffffdideddddedbccaaaaaa
 aaaccbbbbejkjgffffflffefifffidddbbbaaaaa
 aaaccbbbbedidmffnnnnnffffofffdpedbbaaaaa
-aaaacbbbejjdjgffnnqnnnnnnnnnnidddbbaabaa
-aaaaabbbggggggffnnffffffffnnnfhdedbbbcaa
+aaaacbbbejjdjgffnnnnnnnnnnnnnidddbbaabaa
+aaaaabbbggggggffqnffffffffnnnfhdedbbbcaa
 aaaacbbbiididdfnnnfdiiffifnnnfidddbbccca
-aaaccbbbdffddifnnnfifffiifqnnfdidedbccca
-aaaccbbddlfeiffnnnfdiidiffnnnfdedddbccca
-aabbbbbdidiriffnqnifofffffnnnidridebbbba
+aaaccbbbdffddifnnnfifffiifnnnfdidedbccca
+aaaccbbddlfeiffnnnfdiidiffnqnfdedddbccca
+aabbbbbdidiriffnnnifofffffnnnidridebbbba
 abbbbbbdfddedffnnnsiiiiisfnnnfdidddbbbaa
 abbtuuuufuduuuunnnivvwvvifnnnfdreidbbbaa
-aatxxffffidffyznnnivAAAvifnqnfdidddbbbaa
+aatxxffffidffyznqnivAAAvifnqnfdidddbbbaa
 aaBCDffiEfFiefznnfiwAGAwifnnnfieeedbbbba
 aatxxfefEffffyznnfivAAAvifdnnfdeeidbbbba
 abbtuuuuufufiuunniivvwvvifdnnfiridedbcba
 bbbbbbbffffffffnnfsiiiiisfinnfffdidddcba
-cccbbbbinnnnnnnnnffiiffffffnnfflddHedbba
+cccbbbbinnnnnnnnnffiiffffffqnfflddHedbba
 accbbbbdnnnnnnnnniffliffiofnnfffdiddbbaa
-aaabbbbedffnnqnnnnnnnnnnnnnnnfffdebbbbaa
+aaabbbbedffqnnnnnnnnnnnnnnnnnfffdebbbbaa
 aaaabbbrilennnnnnnnnnnnnnnnnnfipedbbbbaa
-aaabbbbedffnnnnnnnnnnnnnnnnqnfddidbbaaaa
-aaabbbgggmgggnnnqnnnnnnnnnnnnfdrddbcaaaa
+aaabbbbedffnnnnnnnnnnnnnnnnnnfddidbbaaaa
+aaabbbgggmgggnnnqnnnnnqnnnqnnfdrddbcaaaa
 aabbbdeddddegnnnnnnnnnnnnnnnnfidedccaaaa
 aabbbeddIIIdgfffifffffiffffffddeddccaaaa
 abbbbdJdededgdiddpdKfflffidHididedbbaaaa
