@@ -8,7 +8,7 @@
 
 /turf/open/floor/jungle/Initialize()
 	. = ..()
-	if(prob(50))
+	if(prob(60))
 		icon_state = "grass[rand(2, 5)]"
 
 
