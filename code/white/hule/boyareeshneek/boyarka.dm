@@ -8,9 +8,9 @@
 	product_ads = "Покупайте-покупайте!;Космическое искушение!;Всего за 49 русских грывней!"
 	product_slogans = "Боярышник или смерть!"
 
-	products = list(/obj/item/reagent_containers/food/drinks/boyarishnik = 0)
+	products = list(/obj/item/reagent_containers/food/drinks/boyarishnik = 3)
 
-	contraband = list(/obj/item/reagent_containers/food/drinks/boyarishnik = 3)
+	contraband = list(/obj/item/reagent_containers/food/drinks/boyarishnik = 5)
 
 	premium = list(/obj/item/reagent_containers/food/drinks/boyarishnik = 50)
 
@@ -48,9 +48,14 @@
 	..()
 
 	if(prob(5))
-		M.hallucination += 10
-		M.adjustToxLoss(1*REM, 0)
+		M.hallucination += 4
+		M.adjustToxLoss(5*REM, 0)
 		M.Sleeping(40, 0)
+		return ..()
+
+	if(prob(4))
+		M.set_eye_damage(100)
+		M.Sleeping(300, 0)
 		return ..()
 
 	if(prob(3))
