@@ -62,7 +62,7 @@
 		M.Sleeping(300, 0)
 	return ..()
 
-	if(prob(3))
+	if(prob(1.5))
 		if(ishuman(M))
 			var/mob/living/carbon/human/H = M
 			if(!H.undergoing_cardiac_arrest() && H.can_heartattack())
@@ -74,7 +74,7 @@
 				H.adjustOxyLoss(rand(5,25), 0)
 				. = 1
 
-	if(prob(2.5))
+	if(prob(4))
 		M.damageoverlaytemp = 60
 		M.update_damage_hud()
 		M.blur_eyes(3)
