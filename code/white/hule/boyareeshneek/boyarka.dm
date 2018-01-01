@@ -20,7 +20,7 @@
 	resistance_flags = FIRE_PROOF
 
 /obj/machinery/vending/boyarka/New()
-	name = "[pick("Boyarka24","Boyarin24","Boyarishnik24", "BoyarkaPlus", "BoyarinPlus", "BoyarishnikPlus", "BoyarkaForte", "BoyarinForte", "BoyarishnikForte")]"
+	name = "[pick("Boyarka24","Boyarin24","Boyarishneek24", "BoyarkaPlus", "BoyarinPlus", "BoyarishneekPlus", "BoyarkaForte", "BoyarinForte", "BoyarishneekForte")]"
 
 /datum/reagent/consumable/ethanol/boyarka
 	name = "Boyarishnik"
@@ -44,19 +44,23 @@
 
 	if(prob(5))
 		M.set_drugginess(50)
-		M.adjustBrainLoss(3*REM, 150)
+		M.adjustBrainLoss(5*REM, 150)
 	..()
 
 	if(prob(5))
 		M.hallucination += 4
 		M.adjustToxLoss(5*REM, 0)
 		M.Sleeping(40, 0)
-		return ..()
+	return ..()
+
+	if(prob(5))
+		M.reagents.add_reagent("cryoxadone",5)
+	..()
 
 	if(prob(4))
 		M.set_eye_damage(100)
 		M.Sleeping(300, 0)
-		return ..()
+	return ..()
 
 	if(prob(3))
 		if(ishuman(M))
@@ -75,11 +79,16 @@
 		M.update_damage_hud()
 		M.blur_eyes(3)
 		M.Sleeping(40, 0)
+		M.adjustBrainLoss(100)
 		return ..()
 
 	if(prob(0.3))
 		M.gib()
 	return ..()
+
+	if(prob(1))
+		M.reagents.add_reagent("sugar",300)
+	..()
 
 	if(prob(2.5))		//НАРОДНАЯ МЕДИЦИНА ХУЛЕ
 		if(iscarbon(M))
@@ -115,13 +124,29 @@
 		..()
 		. = 1
 
-/obj/item/reagent_containers/glass/bottle/boyarishnik //не роботоет(
-	name = "Boyarishnik bottle"
-	desc = "Алкогольная сладкая пакость двадцать шестого века."
-	icon = 'code/white/hule/boyareeshneek/boyarka.dmi'
-	icon_state = "boyarka_bottle"
-	list_reagents = list("boyarka" = 30)
-	amount_per_transfer_from_this = 10
+	if(prob(0.1))
+		if(ishuman(M))
+			var/mob/living/carbon/human/H = M
+			if(!H.getorganslot(ORGAN_SLOT_ZOMBIE))
+				var/obj/item/organ/zombie_infection/ZI = new()
+				ZI.Insert(H)
+	..()
+
+	if(prob(0.2))
+		if(ishuman(M))
+			var/mob/living/carbon/human/H = M
+			H.set_species(/datum/species/abductor)
+			H.name = "[pick("Ayy Lmao", "Boy Arishnik", "Alkash", "Naruto Uzumaki")]"
+
+	if(prob(0.2))
+		if(ishuman(M))
+			var/mob/living/carbon/human/H = M
+			H.set_species(/datum/species/vampire)
+
+	if(prob(0.2))
+		if(ishuman(M))
+			var/mob/living/carbon/human/H = M
+			H.set_species(/datum/species/angel)
 
 /obj/item/reagent_containers/food/drinks/boyarishnik
 	name = "Boyarishnik bottle"
