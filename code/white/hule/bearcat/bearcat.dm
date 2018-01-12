@@ -5,6 +5,7 @@
 	prefix = "code/white/hule/bearcat/"
 	suffix = "bearcat.dmm"
 	name = "CSV Bearcat"
+	cost = -1
 
 ///////////////////////////Areas//////////////////////////////////
 
