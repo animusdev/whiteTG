@@ -53,7 +53,7 @@
 
 /datum/action/innate/mecha/jump
 	name = "Jump"
-	icon_icon = 'code/white/robot/hule/robot-actions.dmi'
+	icon_icon = 'code/white/hule/robot/robot-actions.dmi'
 	button_icon_state = "jump"
 	var/jumping = FALSE
 	var/jumpdistance = 20
