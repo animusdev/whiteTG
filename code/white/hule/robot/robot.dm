@@ -1,7 +1,7 @@
 /obj/mecha/combat/robot
 	name = "robot"
 	desc = "Большой страшный робот. Вам совсем не хочется в него полезать..."
-	icon = 'code/white/robot/hule/robot_icons.dmi'
+	icon = 'code/white/hule/robot/robot_icons.dmi'
 	icon_state = "robot"
 	pixel_x = -16
 	step_in = 0.7
@@ -53,7 +53,7 @@
 
 /datum/action/innate/mecha/jump
 	name = "Jump"
-	icon_icon = 'code/white/hule/robot/robot-actions.dmi'
+	icon_icon = 'code/white/robot/hule/robot-actions.dmi'
 	button_icon_state = "jump"
 	var/jumping = FALSE
 	var/jumpdistance = 20
