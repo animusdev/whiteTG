@@ -2181,7 +2181,6 @@
 	height = 18;
 	id = "emergency_home";
 	name = "BoxStation emergency evac bay";
-	turf_type = /turf/open/space;
 	width = 32
 	},
 /turf/open/space/basic,
@@ -8651,7 +8650,6 @@
 	height = 17;
 	id = "syndicate_ne";
 	name = "northeast of station";
-	turf_type = /turf/open/space;
 	width = 23
 	},
 /turf/open/space,
@@ -36367,8 +36365,7 @@
 	pixel_y = 24
 	},
 /obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 4;
-	
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/engine,
@@ -48024,7 +48021,7 @@
 /area/engine/supermatter)
 "cqE" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/engineering/glass{
+/obj/machinery/door/airlock/engineering/glass/critical{
 	heat_proof = 1;
 	name = "Supermatter Chamber";
 	req_access_txt = "10"
@@ -48257,7 +48254,7 @@
 /turf/closed/wall/r_wall,
 /area/engine/supermatter)
 "crt" = (
-/obj/machinery/door/airlock/engineering/glass{
+/obj/machinery/door/airlock/engineering/glass/critical{
 	heat_proof = 1;
 	name = "Supermatter Chamber";
 	req_access_txt = "10"
@@ -50357,7 +50354,6 @@
 	height = 13;
 	id = "ferry_home";
 	name = "port bay 2";
-	turf_type = /turf/open/space;
 	width = 5
 	},
 /turf/open/space/basic,
@@ -50860,7 +50856,7 @@
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cAm" = (
-/obj/machinery/power/supermatter_shard/crystal/engine,
+/obj/machinery/power/supermatter_crystal/engine,
 /turf/open/floor/engine,
 /area/engine/supermatter)
 "cAo" = (
@@ -51629,20 +51625,6 @@
 /obj/machinery/deepfryer,
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
-"cCt" = (
-/obj/docking_port/stationary{
-	area_type = /area/construction/mining/aux_base;
-	dir = 8;
-	dwidth = 4;
-	height = 9;
-	id = "aux_base_zone";
-	name = "aux base zone";
-	roundstart_template = /datum/map_template/shuttle/aux_base/default;
-	turf_type = /turf/open/floor/plating;
-	width = 9
-	},
-/turf/open/floor/plating,
-/area/construction/mining/aux_base)
 "cCB" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 10
@@ -54490,6 +54472,20 @@
 "wkN" = (
 /turf/closed/wall,
 /area/science/circuit)
+"wph" = (
+/obj/docking_port/stationary{
+	area_type = /area/construction/mining/aux_base;
+	dheight = 4;
+	dir = 8;
+	dwidth = 4;
+	height = 9;
+	id = "aux_base_zone";
+	name = "aux base zone";
+	roundstart_template = /datum/map_template/shuttle/aux_base/default;
+	width = 9
+	},
+/turf/open/floor/plating,
+/area/construction/mining/aux_base)
 "wrp" = (
 /obj/machinery/light{
 	dir = 8
@@ -64859,7 +64855,7 @@ apN
 apN
 apN
 apN
-apN
+wph
 apN
 apN
 apN
@@ -65887,7 +65883,7 @@ apN
 apN
 apN
 apN
-cCt
+apN
 apN
 apN
 apN
