@@ -27,12 +27,6 @@
 turf/open/floor/plating/desert/attackby(obj/item/W, mob/user, params)
 	if(..())
 		return TRUE
-	if(istype(W, /obj/item/storage/bag/ore))
-		var/obj/item/storage/bag/ore/S = W
-		if(S.collection_mode == 1)
-			for(var/obj/item/ore/O in src.contents)
-				O.attackby(W,user)
-				return
 
 	if(istype(W, /obj/item/stack/tile))
 		var/obj/item/stack/tile/Z = W

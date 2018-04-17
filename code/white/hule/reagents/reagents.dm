@@ -70,7 +70,7 @@
 	desc = "The word 'утбябтрднвллк' is scribbled on it in crayon. You'd better don't try to disassemble this."
 	icon = 'code/white/hule/weapons/weapons.dmi'
 	icon_state = "npgrenade"
-	stage = READY
+	stage = 3
 
 /obj/item/grenade/chem_grenade/npgrenade/Initialize()
 	. = ..()
@@ -86,7 +86,7 @@
 	beakers += B2
 
 /obj/item/grenade/chem_grenade/npgrenade/attackby(obj/item/I, mob/user, params)
-	if(stage == READY && istype(I, /obj/item/wirecutters) && !active)
+	if(stage == 3 && istype(I, /obj/item/wirecutters) && !active)
 		if(prob(90))
 			prime()
 			return

@@ -20,11 +20,6 @@
 
 	max_integrity = 500
 
-	max_w_class = WEIGHT_CLASS_NORMAL
-	use_to_pickup = TRUE
-	storage_slots = 18
-	display_contents_with_number = TRUE
-
 	actions_types = list(/datum/action/item_action/dash)
 	var/staminarequired = 10
 	var/distance = 8
@@ -32,6 +27,12 @@
 	var/active = FALSE
 	var/list/stored_items = list()
 
+/obj/item/storage/desertcape/ComponentInitialize()
+	. = ..()
+	GET_COMPONENT(STR, /datum/component/storage)
+	STR.max_combined_w_class = 21
+	STR.max_w_class = WEIGHT_CLASS_NORMAL
+	STR.max_items = 21
 
 /obj/item/storage/desertcape/ui_action_click(mob/living/carbon/user, action)
 	if(!isliving(user))
