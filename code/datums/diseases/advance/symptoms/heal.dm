@@ -464,3 +464,66 @@
 		if(L.heal_damage(heal_amt/parts.len, heal_amt/parts.len))
 			M.update_damage_overlays()
 	return 1
+
+/*
+//////////////////////////////////////
+
+	DNA Restoration
+
+	Not well hidden.
+	Lowers resistance minorly.
+	Does not affect stage speed.
+	Decreases transmittablity greatly.
+	Very high level.
+
+Bonus
+	Heals brain damage, treats radiation, cleans SE of non-power mutations.
+
+//////////////////////////////////////
+*/
+
+/datum/symptom/heal/dna
+
+	name = "Deoxyribonucleic Acid Restoration"
+	desc = "The virus bonds with the DNA of the host, protects from negative genetic mutations"
+	stealth = 1
+	resistance = 1
+	stage_speed = 0
+	transmittable = -3
+	level = 5
+	severity = -1
+	symptom_delay_min = 3
+	symptom_delay_max = 8
+	var/archived_dna = null
+	var/archived_id = null
+	threshold_desc = "---"
+
+/datum/symptom/heal/dna/Start(datum/disease/advance/A)
+//	if(!..())
+//		return
+	var/mob/living/carbon/M = A.affected_mob
+	if(M)
+		if(!M.has_dna())
+			return
+		archived_dna = M.dna.unique_enzymes
+		archived_id = M.dna.uni_identity
+
+/datum/symptom/heal/dna/Heal(mob/living/carbon/M, datum/disease/advance/A)
+	var/amt_healed = 2 * power
+	M.adjustBrainLoss(-amt_healed)
+	//Non-power mutations, excluding race, so the virus does not force monkey -> human transformations.
+	var/list/unclean_mutations = (GLOB.not_good_mutations|GLOB.bad_mutations) - GLOB.mutations_list[RACEMUT]
+	M.dna.remove_mutation_group(unclean_mutations)
+	M.radiation = max(M.radiation - (2 * amt_healed), 0)
+
+	if(M && archived_dna)
+		if(!M.has_dna())
+			return
+		if(M.dna.unique_enzymes != archived_dna|M.dna.uni_identity != archived_id)
+			M.dna.unique_enzymes = archived_dna
+			M.dna.uni_identity = archived_id
+			M.updateappearance()
+			M.domutcheck()
+
+	return 1
+
