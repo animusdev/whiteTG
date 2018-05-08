@@ -294,7 +294,7 @@ obj/item/banner/engineering/atmos/mundane
 	desc = "Старая книга, убившая прародителя мух и мотыльков. На ней до сих пор видны их засохшие внутренности."
 	item = /obj/item/book/ruchinese
 	cost = 18
-	restricted_roles = list("Chaplain,  Curator, Assistant")
+	restricted_roles = list("Chaplain", "Curator", "Assistant")
 	surplus = 5
 
 /datum/emote/living/carbon/blyad
