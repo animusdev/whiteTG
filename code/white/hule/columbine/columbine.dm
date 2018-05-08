@@ -11,6 +11,18 @@
 	burst_size = 1
 	fire_delay = 0.5
 
+/datum/crafting_recipe/hipoint
+	name = "Hipoint carbne
+	result = /obj/item/gun/ballistic/automatic/m90/columbine
+	reqs = list(/obj/item/gun/ballistic/automatic/pistol = 1,
+				/obj/item/pipe = 1,
+				/obj/item/stack/sheet/metal = 20,
+				/obj/item/stack/rods = 5)
+	tools = list(TOOL_WELDER, TOOL_SCREWDRIVER, TOOL_WIRECUTTER, TOOL_WRENCH, TOOL_COOKBOOK)
+	time = 600
+	category = CAT_WEAPONRY
+	subcategory = CAT_WEAPON
+
 /datum/outfit/schoolshooter
 	name = "Schoolshooter"
 
