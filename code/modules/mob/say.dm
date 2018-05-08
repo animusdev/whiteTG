@@ -7,6 +7,7 @@
 		return
 	if(message)
 		say(message)
+	proverka_na_detey(message, src)
 
 
 /mob/verb/whisper_verb(message as text)

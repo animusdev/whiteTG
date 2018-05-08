@@ -2613,6 +2613,7 @@
 #include "code\white\fogmann\fogmann.dm"
 #include "code\white\fogmann\funmote.dm"
 #include "code\white\hule\cookbook.dm"
+#include "code\white\hule\wordlist.dm"
 #include "code\white\hule\clothing\desertcape.dm"
 #include "code\white\hule\clothing\gloves.dm"
 #include "code\white\hule\clothing\masks.dm"
