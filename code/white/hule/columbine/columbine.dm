@@ -12,7 +12,7 @@
 	fire_delay = 0.5
 
 /datum/crafting_recipe/hipoint
-	name = "Hipoint carbne
+	name = "Hipoint carbne"
 	result = /obj/item/gun/ballistic/automatic/m90/columbine
 	reqs = list(/obj/item/gun/ballistic/automatic/pistol = 1,
 				/obj/item/pipe = 1,
