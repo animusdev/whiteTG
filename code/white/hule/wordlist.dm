@@ -24,7 +24,7 @@
 GLOBAL_LIST_INIT(bad_words, world.file2list("[global.config.directory]/bad_words.fackuobema"))
 
 GLOBAL_LIST_INIT(neobuchaemie_debili, world.file2list("[global.config.directory]/debix_list.fackuobema"))
-
+/*
 /proc/proverka_na_detey(var/msg, var/mob/target)
 	for(var/W in GLOB.bad_words)
 		if(findtext(r_lowertext(msg), W) && isliving(target))
@@ -47,3 +47,4 @@ GLOBAL_LIST_INIT(neobuchaemie_debili, world.file2list("[global.config.directory]
 				target.gib()
 				qdel(target.client)
 			return
+*/

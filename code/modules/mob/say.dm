@@ -8,7 +8,7 @@
 	if(message)
 		message = ruscapitalize(message)
 		say(message)
-	proverka_na_detey(message, src)
+//	proverka_na_detey(message, src)
 
 
 /mob/verb/whisper_verb(message as text)
