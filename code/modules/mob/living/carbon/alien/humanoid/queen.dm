@@ -37,7 +37,7 @@
 
 	real_name = src.name
 
-	AddSpell(new /obj/effect/proc_holder/spell/aoe_turf/repulse/xeno(src))
+//	AddSpell(new /obj/effect/proc_holder/spell/aoe_turf/repulse/xeno(src))
 	AddAbility(new/obj/effect/proc_holder/alien/royal/queen/promote())
 	smallsprite.Grant(src)
 	..()
@@ -48,6 +48,7 @@
 	internal_organs += new /obj/item/organ/alien/acid
 	internal_organs += new /obj/item/organ/alien/neurotoxin
 	internal_organs += new /obj/item/organ/alien/eggsac
+	internal_organs += new /obj/item/organ/tail/lizard/alien
 	..()
 
 /mob/living/carbon/alien/humanoid/royal/queen/movement_delay()
