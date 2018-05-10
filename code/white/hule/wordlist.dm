@@ -30,22 +30,34 @@ GLOBAL_LIST_INIT(neobuchaemie_debili, world.file2list("[global.config.directory]
 	for(var/W in GLOB.bad_words)
 		W = r_lowertext(W)
 		if(findtext(msg, W) && isliving(target))
+			var/list/ML = splittext(msg, " ")
+
 			if(W == "лол")
-				var/list/L = splittext(msg, " ")
-				for(var/WD in L)
-					if(findtext(WD, "лол") > findtext(WD, regex("^лол")))
+				for(var/WL in ML)
+					if(findtext(WL, "лол") > findtext(WL, regex("^лол")))
 						return
-			message_admins("Тупой дебил [target.ckey] насрал на ИС. [ADMIN_COORDJMP(target)]")
+
+			if(W == "кек")
+				for(var/WK in ML)
+					if(findtext(WK, "кек") && (WK != "кек"))
+						return
+
+			if(!ishuman(target))
+				if(target.client)
+					target.client.prefs.muted |= MUTE_IC
+
 			if(ishuman(target))
 				var/mob/living/carbon/human/H = target
-				var/turf/T = get_step(get_step(target, NORTH), NORTH)
-				T.Beam(target, icon_state="lightning[rand(1,12)]", time = 4.7)
+				//var/turf/T = get_step(get_step(target, NORTH), NORTH)
+				//T.Beam(target, icon_state="lightning[rand(1,12)]", time = 4.7) блин хуйня рантаймит
 				H.adjustFireLoss(47)
 				H.electrocution_animation(47)
 				H.adjustBrainLoss(199, 199) //odin hui debix ne smojet vtoroy raz nakinut sebe brainloss
 				H.gain_trauma(/datum/brain_trauma/severe/mute, TRAUMA_RESILIENCE_SURGERY)
-				to_chat(target, "<span class='userdanger'>You have been automatically punished for your sins!</span>")
 			if(target.ckey in GLOB.neobuchaemie_debili)
 				target.gib()
 				qdel(target.client)
+
+			message_admins("Тупой дебил [target.ckey] насрал на ИС. [ADMIN_COORDJMP(target)]")
+			to_chat(target, "<span class='userdanger'>You have been automatically punished for your sins!</span>")
 			return
