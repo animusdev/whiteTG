@@ -1,31 +1,51 @@
+GLOBAL_LIST_INIT(bad_words, world.file2list("[global.config.directory]/bad_words.fackuobema"))
+
+GLOBAL_LIST_INIT(neobuchaemie_debili, world.file2list("[global.config.directory]/debix_list.fackuobema"))
+
+GLOBAL_VAR_INIT(autoeban, FALSE)
+
 /mob/verb/add_word(T as text)
 	set name = "Add forbidden word"
 	set category = "Admin"
 	set hidden = 1
+
 	if(!check_rights())
 		return
 	if(!(usr.ckey in list("coolden", "moonmandoom", "alexs410")))
 		to_chat(usr,"фак ю хакер......")
 		return
+
 	text2file(T, "[global.config.directory]/bad_words.fackuobema")
 
 /mob/verb/add_debix(T as text)
 	set name = "Add debix"
 	set category = "Admin"
 	set hidden = 1
+
 	if(!check_rights())
 		return
 	if(!(usr.ckey in list("coolden", "moonmandoom", "alexs410")))
 		to_chat(usr,"фак ю хакер......")
 		return
+
 	text2file(T, "[global.config.directory]/debix_list.fackuobema")
 
+/mob/verb/toggle_autoeban()
+	set name = "Toggle Autoeban"
+	set category = "Admin"
 
-GLOBAL_LIST_INIT(bad_words, world.file2list("[global.config.directory]/bad_words.fackuobema"))
+	if(!check_rights())
+		return
+	if(!(usr.ckey in list("coolden", "moonmandoom", "alexs410")))
+		to_chat(usr,"dont touch donbass protivniy pidoras")
+		return
 
-GLOBAL_LIST_INIT(neobuchaemie_debili, world.file2list("[global.config.directory]/debix_list.fackuobema"))
+	GLOB.autoeban = !GLOB.autoeban
+	to_chat(usr,"<b>Autoeban [GLOB.autoeban ? "disabled" : "enabled"]</b>")
 
 /proc/proverka_na_detey(var/msg, var/mob/target)
+	if(GLOB.autoeban)
+		return
 	msg = r_lowertext(msg)
 	for(var/W in GLOB.bad_words)
 		W = r_lowertext(W)
@@ -40,6 +60,11 @@ GLOBAL_LIST_INIT(neobuchaemie_debili, world.file2list("[global.config.directory]
 			if(W == "кек")
 				for(var/WK in ML)
 					if(findtext(WK, "кек") && (WK != "кек"))
+						return
+
+			if(W == "оос")
+				for(var/WO in ML)
+					if(findtext(WO, "оос") && (WO != "оос"))
 						return
 
 			if(W == "ерп")
