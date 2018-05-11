@@ -42,6 +42,11 @@ GLOBAL_LIST_INIT(neobuchaemie_debili, world.file2list("[global.config.directory]
 					if(findtext(WK, "κεκ") && (WK != "κεκ"))
 						return
 
+			if(W == "επο")
+				for(var/WE in ML)
+					if(findtext(WE, "επο") > findtext(WE, regex("^επο")))
+						return
+
 			if(!ishuman(target))
 				if(target.client)
 					target.client.prefs.muted |= MUTE_IC
