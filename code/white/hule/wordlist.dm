@@ -69,8 +69,8 @@ GLOBAL_VAR_INIT(autoeban, FALSE)
 
 			if(ishuman(target))
 				var/mob/living/carbon/human/H = target
-				//var/turf/T = get_step(get_step(target, NORTH), NORTH)
-				//T.Beam(target, icon_state="lightning[rand(1,12)]", time = 4.7) блин хуйня рантаймит
+				var/turf/T = get_step(get_step(H, NORTH), NORTH)
+				T.Beam(target, icon_state="lightning[rand(1,12)]", time = 4.7)
 				H.adjustFireLoss(47)
 				H.electrocution_animation(47)
 				H.adjustBrainLoss(199, 199) //odin hui debix ne smojet vtoroy raz nakinut sebe brainloss
@@ -79,6 +79,7 @@ GLOBAL_VAR_INIT(autoeban, FALSE)
 				target.gib()
 				qdel(target.client)
 
+			playsound(src,'code/white/hule/rjach.ogg', 200, 7, pressure_affected = FALSE)
 			message_admins("Тупой дебил [target.ckey] насрал на ИС. [ADMIN_COORDJMP(target)]")
 			to_chat(target, "<span class='userdanger'>You have been automatically punished for your sins!</span>")
 			return
