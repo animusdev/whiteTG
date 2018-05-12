@@ -41,7 +41,8 @@ GLOBAL_VAR_INIT(autoeban, FALSE)
 		return
 
 	GLOB.autoeban = !GLOB.autoeban
-	to_chat(usr,"<b>Autoeban [GLOB.autoeban ? "disabled" : "enabled"]</b>")
+	message_admins("Autoeban [GLOB.autoeban ? "disabled" : "enabled"]")
+	log_game("Autoeban toggled.")
 
 /proc/proverka_na_detey(var/msg, var/mob/target)
 	if(GLOB.autoeban)
@@ -52,24 +53,14 @@ GLOBAL_VAR_INIT(autoeban, FALSE)
 		if(findtext(msg, W) && isliving(target))
 			var/list/ML = splittext(msg, " ")
 
-			if(W == "лол")
-				for(var/WL in ML)
-					if(findtext(WL, "лол") > findtext(WL, regex("^лол")))
-						return
-
-			if(W == "кек")
-				for(var/WK in ML)
-					if(findtext(WK, "кек") && (WK != "кек"))
-						return
-
-			if(W == "оос")
+			if(W in list("лол", "ерп", "татор"))
 				for(var/WO in ML)
-					if(findtext(WO, "оос") && (WO != "оос"))
+					if(findtext(WO, "[W]") > findtext(WO, regex("^[W]")))
 						return
 
-			if(W == "ерп")
-				for(var/WE in ML)
-					if(findtext(WE, "ерп") > findtext(WE, regex("^ерп")))
+			if(W in list("оос", "кек"))
+				for(var/WT in ML)
+					if(findtext(WT, W) && (WT != W))
 						return
 
 			if(!ishuman(target))
