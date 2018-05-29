@@ -1,3 +1,4 @@
+//dodging merge-conflicts (no-procs in file "backdoors")
 /mob/living/proc/compoundDamage(var/mob/living/A,var/mod=1)
 	adjustBruteLoss(A.bruteloss*mod)
 	adjustOxyLoss(A.oxyloss*mod)
