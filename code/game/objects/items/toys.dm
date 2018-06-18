@@ -629,6 +629,14 @@
 	var/obj/machinery/computer/holodeck/holo = null // Holodeck cards should not be infinite
 	var/list/cards = list()
 
+/obj/item/toy/cards/deck/shitspawn_deck
+	name = "shitspawn deck of cards"
+	desc = "A deck of space-grade playing cards with some shitspawn in it."
+	icon = 'icons/obj/toy.dmi'
+	deckstyle = "nanotrasen"
+	icon_state = "deck_nanotrasen_full"
+	w_class = WEIGHT_CLASS_SMALL
+
 /obj/item/toy/cards/deck/New()
 	..()
 	icon_state = "deck_[deckstyle]_full"
@@ -677,6 +685,29 @@
 	user.visible_message("[user] draws a card from the deck.", "<span class='notice'>You draw a card from the deck.</span>")
 	update_icon()
 
+
+/obj/item/toy/cards/deck/shitspawn_deck/attack_hand(mob/user)
+	if(user.lying)
+		return
+	var/choice = null
+	if(cards.len == 0)
+		to_chat(user, "<span class='warning'>There are no more cards to draw!</span>")
+		return
+	var/obj/item/toy/cards/singlecard/H = new/obj/item/toy/cards/singlecard(user.loc)
+	if(holo)
+		holo.spawned += H // track them leaving the holodeck
+	choice = cards[1]
+	H.cardname = choice
+	H.parentdeck = src
+	var/O = src
+	H.apply_card_vars(H,O)
+	src.cards -= choice
+	H.pickup(user)
+	user.put_in_hands(H)
+	playsound(src, 'sound/items/pullcard.ogg', 50, 1)
+	user.visible_message("[user] draws a card from the deck. Karta razlozhena v drugom poryadke, blyat!", "<span class='notice'>You draw a card from the deck. Karta razlozhena v drugom poryadke, blyat!</span>")
+	update_icon()
+
 /obj/item/toy/cards/deck/update_icon()
 	if(cards.len > 26)
 		icon_state = "deck_[deckstyle]_full"
@@ -692,6 +723,16 @@
 		cards = shuffle(cards)
 		playsound(src, 'sound/items/cardshuffle.ogg', 50, 1)
 		user.visible_message("[user] shuffles the deck.", "<span class='notice'>You shuffle the deck.</span>")
+		cooldown = world.time
+
+
+
+/obj/item/toy/cards/deck/shitspawn_deck/attack_self(mob/user)
+	if(cooldown < world.time - 50)
+		cards = shuffle(cards)
+		playsound(src, 'sound/items/cardshuffle.ogg', 50, 1)
+		playsound(src, 'sound/items/cardshuffle2.ogg', 50, 1)
+		user.visible_message("[user] shuffles the deck. Karti razlozheni v drugom poryadke, blyat!", "<span class='notice'>You shuffle the deck. Karti razlozheni v drugom poryadke, blyat!</span>")
 		cooldown = world.time
 
 /obj/item/toy/cards/deck/attackby(obj/item/I, mob/living/user, params)
