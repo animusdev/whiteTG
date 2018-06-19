@@ -94,7 +94,9 @@
 						"Leopard Spots" = "detective_leopard",
 						"Black Panther" = "detective_panther",
 						"Gold Trim" = "detective_gold",
-						"The Peacemaker" = "detective_peacemaker"
+						"The Peacemaker" = "detective_peacemaker",
+						"Neoclassic" = "detective_neoclassic",
+						"Harat" = "detective_harat"
 						)
 
 /obj/item/gun/ballistic/revolver/detective/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0)
