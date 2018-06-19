@@ -75,7 +75,7 @@
 
 	if(cooldown < world.time - 30)
 		usr.audible_message("[usr]: <font color='red' size='4'><b>Allahu Akbar!</b></font>")
-		playsound(src.loc, "code/white/Tsuru/allahu.ogg", 100, 0, 4)
+		playsound(src.loc, 'sound/voice/complionator/allah.ogg', 100, 0, 4)
 		cooldown = world.time
 
 
@@ -136,5 +136,5 @@ obj/item/clothing/shoes/combat/soulbreaker
 
 	if(cooldown < world.time - 30)
 		usr.audible_message("[usr]'s helmet: <font color='red' size='4'><b>Bark!</b></font>")
-		playsound(src.loc, "code/white/Tsuru/bark.ogg", 100, 0, 4)
+		playsound(src.loc, 'sound/voice/complionator/bark.ogg', 100, 0, 4)
 		cooldown = world.time
