@@ -94,7 +94,9 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	description = "Boyarka"
 	color = "#704300"
 	boozepwr = 100
-	taste_description = "berry"
+	taste_description = "berry and Russia"
+	glass_name = "glass of boyar"
+	glass_desc = "Glass of berry alcohol. "
 
 /datum/reagent/consumable/ethanol/beer/green
 	name = "Green Beer"
