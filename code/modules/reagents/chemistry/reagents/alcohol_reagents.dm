@@ -88,6 +88,14 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_name = "glass of beer"
 	glass_desc = "A freezing pint of beer."
 
+/datum/reagent/consumable/ethanol/boyarka
+	name = "Boyarka"
+	id = "boyar"
+	description = "Boyarka"
+	color = "#704300"
+	boozepwr = 100
+	taste_description = "berry"
+
 /datum/reagent/consumable/ethanol/beer/green
 	name = "Green Beer"
 	id = "greenbeer"
