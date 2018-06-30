@@ -301,12 +301,15 @@
 	time = 100
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
+	
 /datum/crafting_recipe/receiver
 	name = "Receiver"
 	result = /obj/weaponcrafting/receiver
 	reqs - list(/obj/item/stack/sheet/metal = 5)
 	tools = list(TOOL_WELDER,TOOL_SCREWDRIVER)
 	time = 50
+	category = CAT_WEAPONRY
+	subcategory = CAT_WEAPON
 
 /datum/crafting_recipe/chainsaw
 	name = "Chainsaw"
