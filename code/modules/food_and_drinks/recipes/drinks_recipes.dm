@@ -10,7 +10,7 @@
 /datum/chemical_reaction/boyara
 	name = "Boyarka"
 	id = "boyar"
-	results = list("boyarka" = 10)
+	results = list("boyar" = 10)
 	required_reagents = list("vodka" = 10, "berryjuice" = 1)
 
 /datum/chemical_reaction/patron
