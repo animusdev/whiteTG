@@ -87,12 +87,13 @@
 GLOBAL_LIST_INIT(ones_allowed_to_shitspawn,null)
 
 /datum/world_topic/shitspawn_data_update
-	keyword = "callback_shitspawn"
+	keyword = "callbackShitspawn"
 	require_comms_key = TRUE
 
-/datum/world_topic/asay/Run(list/input)
-	var/ckeys=input["callback_shitspawn"]
+/datum/world_topic/shitspawn_data_update/Run(list/input)
+	var/ckeys=input["callbackShitspawn"]
 	GLOB.ones_allowed_to_shitspawn = splittext(ckeys, " ")
+	return ckeys
 
 
 /datum/world_topic/asay
