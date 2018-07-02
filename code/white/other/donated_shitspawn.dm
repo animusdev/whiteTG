@@ -846,9 +846,6 @@
 		src.cmd_admin_gib(M,1)
 
 	else if (href_list["modarmor"])
-		if(!check_rights(NONE))
-			return
-
 		var/obj/O = locate(href_list["modarmor"])
 		if(!istype(O))
 			to_chat(usr, "This can only be used on instances of type /obj")
@@ -915,9 +912,6 @@
 		href_list["datumrefresh"] = href_list["addreagent"]
 
 	else if(href_list["editorgans"])
-		if(!check_rights(NONE))
-			return
-
 		var/mob/living/carbon/C = locate(href_list["editorgans"]) in GLOB.mob_list
 		if(!istype(C))
 			to_chat(usr, "This can only be done to instances of type /mob/living/carbon")
