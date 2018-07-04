@@ -93,6 +93,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	id = "boyar"
 	description = "Boyarka"
 	color = "#704300"
+	nutriment_factor = 1 * REAGENTS_METABOLISM
 	boozepwr = 100
 	taste_description = "berry and Russia"
 	glass_name = "glass of boyar"
