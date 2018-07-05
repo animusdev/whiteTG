@@ -91,6 +91,7 @@
 	description = "You don't even want to think about what's in here."
 	taste_description = "gross iron"
 	shot_glass_icon_state = "shotglassred"
+	
 
 /datum/reagent/vaccine
 	//data must contain virus type

@@ -84,6 +84,12 @@
 	icon_state = "pill5"
 	list_reagents = list("cyanide" = 50)
 	roundstart = 1
+/obj/item/reagent_containers/pill/boyar_t
+	name = "true boyar pill"
+	desc = "TRUE BOYAR."
+	icon_state = "pill5"
+	list_reagents = list("boyar_tr" = 50)
+	roundstart = 1
 /obj/item/reagent_containers/pill/adminordrazine
 	name = "adminordrazine pill"
 	desc = "It's magic. We don't have to explain it."
