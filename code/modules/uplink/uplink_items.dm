@@ -671,6 +671,12 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	item = /obj/item/pen/edagger
 	cost = 2
 
+/datum/uplink_item/stealthy_weapons/boyar_t_pill
+	name = "True boyar pill"
+	desc = "Oh no! Its TRUE boyar pill!!!"
+	item = /obj/item/reagent_containers/pill/boyar_t
+	cost = 2
+
 /datum/uplink_item/stealthy_weapons/foampistol
 	name = "Toy Gun with Riot Darts"
 	desc = "An innocent-looking toy pistol designed to fire foam darts. Comes loaded with riot-grade \
