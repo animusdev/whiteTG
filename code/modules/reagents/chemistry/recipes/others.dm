@@ -4,6 +4,12 @@
 	id = "sterilizine"
 	results = list("sterilizine" = 3)
 	required_reagents = list("ethanol" = 1, "charcoal" = 1, "chlorine" = 1)
+	
+/datum/chemical_reaction/andr_nan
+	name = "Android nanites"
+	id = "and_nanit"
+	results = list("and_nanit" = 1)
+	required_reagents = list("iron" = 1,"gold" = 1,"silver" = 1)
 
 /datum/chemical_reaction/lube
 	name = "Space Lube"
