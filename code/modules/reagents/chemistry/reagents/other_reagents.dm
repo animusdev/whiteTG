@@ -92,14 +92,6 @@
 	taste_description = "gross iron"
 	shot_glass_icon_state = "shotglassred"
 	
-/datum/reagent/android
-	name = "Android nanites"
-	id = "and_nanit"
-	description = "Nanites will transform you in android"
-	color = "#5EFF3B"
-/datum/reagent/android/on_mob_life(mob/living/carbon/human/H)
-	H.set_species(/datum/species/android,1)
-	..()
 
 /datum/reagent/vaccine
 	//data must contain virus type
