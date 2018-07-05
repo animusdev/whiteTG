@@ -92,12 +92,26 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	name = "Boyarka"
 	id = "boyar"
 	description = "Boyarka"
-	color = "#704300"
+	color = "#880000"
 	nutriment_factor = 1 * REAGENTS_METABOLISM
-	boozepwr = 100
+	boozepwr = 75
 	taste_description = "berry and Russia"
 	glass_name = "glass of boyar"
 	glass_desc = "Glass of berry alcohol. "
+
+/datum/reagent/consumable/ethanol/boyarka/on_mob_life(mob/living/M)
+	M.reagents.add_reagent(get_random_reagent_id(),1)
+	M.reagents.add_reagent("rotatium",1)
+	..()
+
+/datum/reagent/consumable/ethanol/boyarka/traitor
+	id = "boyar_tr"
+/datum/reagent/consumable/ethanol/boyarka/traitor/on_mob_life(mob/living/M)
+	M.reagents.add_reagent(get_random_reagent_id(),100)
+	M.reagents.add_reagent("rotatium",2)
+	spawn(0)
+		new /datum/hallucination/delusion(M, TRUE, "demon",600,0)
+	to_chat(M, "<span class='warning'>KILL THEM ALL</span>")
 
 /datum/reagent/consumable/ethanol/beer/green
 	name = "Green Beer"

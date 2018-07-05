@@ -4,6 +4,7 @@
 	id = "sterilizine"
 	results = list("sterilizine" = 3)
 	required_reagents = list("ethanol" = 1, "charcoal" = 1, "chlorine" = 1)
+	
 
 /datum/chemical_reaction/lube
 	name = "Space Lube"
