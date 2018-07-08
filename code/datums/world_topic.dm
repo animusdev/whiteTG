@@ -84,6 +84,7 @@
 	msg += "Total Players: [n]"
 	return msg
 
+/*
 GLOBAL_LIST_INIT(ones_allowed_to_shitspawn,null)
 
 /datum/world_topic/shitspawn_data_update
@@ -94,7 +95,7 @@ GLOBAL_LIST_INIT(ones_allowed_to_shitspawn,null)
 	var/ckeys=input["callbackShitspawn"]
 	GLOB.ones_allowed_to_shitspawn = splittext(ckeys, " ")
 	return ckeys
-
+*/
 
 /datum/world_topic/asay
 	keyword = "asay"
